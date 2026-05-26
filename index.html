@@ -1,17 +1,417 @@
 <!DOCTYPE html>
-<html lang="es">
+<html lang="es" data-theme="light">
+<!--
+  ============================================================
+  MIGUEL PONS TOUS — HOMENAJE ARTÍSTICO
+  index.html — Página principal
+  ============================================================
+-->
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Miguel Pons Tous</title>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Homenaje artístico y familiar a Miguel Pons Tous — artista, maestro y alma musical." />
+  <meta name="theme-color" content="#B8893A" />
 
-  <link rel="stylesheet" href="assets/css/style.css">
+  <!-- Open Graph (redes sociales) -->
+  <meta property="og:title"       content="Miguel Pons Tous — Homenaje Artístico" />
+  <meta property="og:description" content="Un legado de arte, música y sensibilidad que trasciende el tiempo." />
+  <meta property="og:type"        content="website" />
+
+  <title>Miguel Pons Tous — Homenaje Artístico</title>
+
+  <!-- ==========================================
+       TIPOGRAFÍAS — Google Fonts
+       Cormorant Garamond: elegancia clásica para títulos
+       Cormorant SC:       versalitas para acentos tipográficos
+       Jost:               cuerpo de texto moderno y limpio
+  =========================================== -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;1,300;1,400;1,500&family=Cormorant+SC:wght@300;400;500&family=Jost:wght@200;300;400&display=swap"
+    rel="stylesheet"
+  />
+
+  <!-- Hoja de estilos principal -->
+  <link rel="stylesheet" href="assets/css/style.css" />
+
+  <!--
+    Prevención de "flash" de tema incorrecto:
+    Se lee la preferencia ANTES del render del body.
+    Este pequeño script inline es intencional.
+  -->
+  <script>
+    (function() {
+      const saved = localStorage.getItem('mpt-theme');
+      const prefersDark = window.matchMedia('(prefers-color-scheme: dark)').matches;
+      const theme = saved || (prefersDark ? 'dark' : 'light');
+      document.documentElement.setAttribute('data-theme', theme);
+    })();
+  </script>
 </head>
+
 <body>
 
-  <h1>Miguel Pons Tous</h1>
-  <p>Sitio homenaje</p>
+  <!-- ============================================================
+       NAVBAR — Navegación principal
+  ============================================================ -->
+  <header class="navbar" role="banner" id="site-header">
+    <div class="navbar__inner">
 
+      <!-- Marca / Logotipo textual -->
+      <a href="#inicio" class="navbar__brand" aria-label="Miguel Pons Tous — Inicio">
+        <span class="navbar__brand-name">Miguel Pons Tous</span>
+        <span class="navbar__brand-sub">Artista · Maestro</span>
+      </a>
+
+      <!-- Navegación desktop -->
+      <nav class="navbar__nav" role="navigation" aria-label="Navegación principal">
+        <a href="#inicio"       class="navbar__link is-active">Inicio</a>
+        <a href="#biografia"    class="navbar__link">Biografía</a>
+        <a href="#obras"        class="navbar__link">Obras</a>
+        <a href="#castanuelas"  class="navbar__link">Castañuelas</a>
+        <a href="#exposiciones" class="navbar__link">Exposiciones</a>
+        <a href="#contacto"     class="navbar__link">Contacto</a>
+      </nav>
+
+      <!-- Controles: tema + hamburguesa -->
+      <div class="navbar__controls">
+
+        <!-- Botón Toggle Dark Mode -->
+        <button
+          class="btn-theme"
+          aria-label="Cambiar a modo oscuro"
+          title="Cambiar tema"
+        >
+          <!-- Icono Luna (modo claro activo) -->
+          <svg class="icon-moon" width="16" height="16" viewBox="0 0 24 24" fill="none"
+               stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"
+               aria-hidden="true">
+            <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"/>
+          </svg>
+          <!-- Icono Sol (modo oscuro activo) -->
+          <svg class="icon-sun" width="16" height="16" viewBox="0 0 24 24" fill="none"
+               stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"
+               aria-hidden="true">
+            <circle cx="12" cy="12" r="5"/>
+            <line x1="12" y1="1"  x2="12" y2="3"/>
+            <line x1="12" y1="21" x2="12" y2="23"/>
+            <line x1="4.22" y1="4.22"  x2="5.64" y2="5.64"/>
+            <line x1="18.36" y1="18.36" x2="19.78" y2="19.78"/>
+            <line x1="1"  y1="12" x2="3"  y2="12"/>
+            <line x1="21" y1="12" x2="23" y2="12"/>
+            <line x1="4.22" y1="19.78" x2="5.64" y2="18.36"/>
+            <line x1="18.36" y1="5.64" x2="19.78" y2="4.22"/>
+          </svg>
+        </button>
+
+        <!-- Botón Hamburguesa (mobile) -->
+        <button
+          class="btn-menu"
+          aria-label="Abrir menú"
+          aria-expanded="false"
+          aria-controls="mobile-drawer"
+        >
+          <span class="btn-menu__bar"></span>
+          <span class="btn-menu__bar"></span>
+          <span class="btn-menu__bar"></span>
+        </button>
+
+      </div><!-- /navbar__controls -->
+    </div><!-- /navbar__inner -->
+  </header>
+
+  <!-- ============================================================
+       NAVBAR DRAWER — Menú mobile
+  ============================================================ -->
+  <div class="navbar__drawer" id="mobile-drawer" role="dialog" aria-label="Menú de navegación">
+    <a href="#inicio"       class="navbar__drawer-link">Inicio</a>
+    <div class="navbar__drawer-ornament"></div>
+    <a href="#biografia"    class="navbar__drawer-link">Biografía</a>
+    <div class="navbar__drawer-ornament"></div>
+    <a href="#obras"        class="navbar__drawer-link">Obras</a>
+    <div class="navbar__drawer-ornament"></div>
+    <a href="#castanuelas"  class="navbar__drawer-link">Castañuelas</a>
+    <div class="navbar__drawer-ornament"></div>
+    <a href="#exposiciones" class="navbar__drawer-link">Exposiciones</a>
+    <div class="navbar__drawer-ornament"></div>
+    <a href="#contacto"     class="navbar__drawer-link">Contacto</a>
+  </div>
+
+
+  <!-- ============================================================
+       MAIN — Contenido principal
+  ============================================================ -->
+  <main id="main-content">
+
+    <!-- ==========================================
+         HERO — Portada principal
+    =========================================== -->
+    <section class="hero" id="inicio" aria-label="Portada principal">
+
+      <!-- Fondo cinematográfico -->
+      <div class="hero__bg" aria-hidden="true"></div>
+
+      <!-- Líneas verticales decorativas (tipo partitura / catálogo) -->
+      <div class="hero__lines" aria-hidden="true">
+        <div class="hero__line"></div>
+        <div class="hero__line"></div>
+        <div class="hero__line"></div>
+        <div class="hero__line"></div>
+        <div class="hero__line"></div>
+      </div>
+
+      <!-- Número de catálogo lateral (estética museo) -->
+      <p class="hero__catalog-number" aria-hidden="true">
+        Homenaje artístico &nbsp;·&nbsp; Familia Pons Tous
+      </p>
+
+      <!-- Contenido principal -->
+      <div class="hero__content">
+        <div class="hero__inner">
+
+          <!-- Columna de texto -->
+          <div class="hero__text-col">
+
+            <!-- Etiqueta superior -->
+            <p class="hero__eyebrow">
+              <span class="hero__eyebrow-line" aria-hidden="true"></span>
+              Legado artístico y familiar
+            </p>
+
+            <!-- Título principal -->
+            <h1 class="hero__title" aria-label="Miguel Pons Tous">
+              <span class="hero__title-first">Miguel</span>
+              <span class="hero__title-last">
+                Pons <span class="hero__title-accent">Tous</span>
+              </span>
+            </h1>
+
+            <!-- Subtítulo emocional -->
+            <p class="hero__subtitle">
+              Pintor, escultor y maestro de las castañuelas —<br />
+              cuya obra guarda el silencio cálido de lo eterno.
+            </p>
+
+            <!-- Llamadas a la acción -->
+            <div class="hero__actions">
+
+              <a href="#obras" class="btn-primary" aria-label="Explorar la obra de Miguel Pons Tous">
+                <svg width="14" height="14" viewBox="0 0 24 24" fill="none"
+                     stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                     stroke-linejoin="round" aria-hidden="true">
+                  <circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/>
+                </svg>
+                Explorar obra
+              </a>
+
+              <a href="#biografia" class="btn-ghost" aria-label="Conocer la biografía">
+                Biografía
+                <svg width="12" height="12" viewBox="0 0 24 24" fill="none"
+                     stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                     stroke-linejoin="round" aria-hidden="true">
+                  <line x1="5" y1="12" x2="19" y2="12"/>
+                  <polyline points="12 5 19 12 12 19"/>
+                </svg>
+              </a>
+
+            </div><!-- /hero__actions -->
+          </div><!-- /hero__text-col -->
+
+          <!-- Columna lateral con metadatos verticales -->
+          <div class="hero__meta-col" aria-hidden="true">
+            <div class="hero__meta-line"></div>
+            <p class="hero__years">Artista · Legado · Memoria</p>
+          </div>
+
+        </div><!-- /hero__inner -->
+      </div><!-- /hero__content -->
+
+      <!-- Indicador de scroll -->
+      <div class="hero__scroll" aria-hidden="true">
+        <div class="hero__scroll-track">
+          <div class="hero__scroll-thumb"></div>
+        </div>
+      </div>
+
+    </section><!-- /hero -->
+
+
+    <!-- ==========================================
+         SECCIÓN BIOGRAFÍA — Placeholder
+    =========================================== -->
+    <section class="section-placeholder" id="biografia" aria-label="Biografía">
+      <p class="section-placeholder__id reveal">001</p>
+      <h2 class="section-placeholder__title reveal reveal--delay-1">Biografía</h2>
+      <div class="section-placeholder__ornament reveal reveal--delay-2">
+        <span></span>
+        ✦
+        <span></span>
+      </div>
+      <p class="section-placeholder__desc reveal reveal--delay-3">
+        La historia de un artista que dedicó su vida a la expresión,<br />
+        el color y el ritmo de las castañuelas. Próximamente.
+      </p>
+    </section>
+
+
+    <!-- ==========================================
+         SECCIÓN OBRAS — Placeholder
+    =========================================== -->
+    <section class="section-placeholder" id="obras" aria-label="Obras">
+      <p class="section-placeholder__id reveal">002</p>
+      <h2 class="section-placeholder__title reveal reveal--delay-1">Obras</h2>
+      <div class="section-placeholder__ornament reveal reveal--delay-2">
+        <span></span>
+        ✦
+        <span></span>
+      </div>
+      <p class="section-placeholder__desc reveal reveal--delay-3">
+        Galería de pinturas, esculturas y creaciones<br />
+        que constituyen su legado visual. Próximamente.
+      </p>
+    </section>
+
+
+    <!-- ==========================================
+         SECCIÓN CASTAÑUELAS — Placeholder
+    =========================================== -->
+    <section class="section-placeholder" id="castanuelas" aria-label="Castañuelas">
+      <p class="section-placeholder__id reveal">003</p>
+      <h2 class="section-placeholder__title reveal reveal--delay-1">Castañuelas</h2>
+      <div class="section-placeholder__ornament reveal reveal--delay-2">
+        <span></span>
+        ✦
+        <span></span>
+      </div>
+      <p class="section-placeholder__desc reveal reveal--delay-3">
+        El arte de las castañuelas: tradición, técnica<br />
+        y pasión transmitida de generación en generación.
+      </p>
+    </section>
+
+
+    <!-- ==========================================
+         SECCIÓN EXPOSICIONES — Placeholder
+    =========================================== -->
+    <section class="section-placeholder" id="exposiciones" aria-label="Exposiciones">
+      <p class="section-placeholder__id reveal">004</p>
+      <h2 class="section-placeholder__title reveal reveal--delay-1">Exposiciones</h2>
+      <div class="section-placeholder__ornament reveal reveal--delay-2">
+        <span></span>
+        ✦
+        <span></span>
+      </div>
+      <p class="section-placeholder__desc reveal reveal--delay-3">
+        Registro de exhibiciones, muestras y presencia<br />
+        pública de su obra a lo largo de los años.
+      </p>
+    </section>
+
+
+    <!-- ==========================================
+         SECCIÓN CONTACTO — Placeholder
+    =========================================== -->
+    <section class="section-placeholder" id="contacto" aria-label="Contacto">
+      <p class="section-placeholder__id reveal">005</p>
+      <h2 class="section-placeholder__title reveal reveal--delay-1">Contacto</h2>
+      <div class="section-placeholder__ornament reveal reveal--delay-2">
+        <span></span>
+        ✦
+        <span></span>
+      </div>
+      <p class="section-placeholder__desc reveal reveal--delay-3">
+        Para consultas sobre la obra, reproducciones<br />
+        y archivos familiares. Formulario próximamente.
+      </p>
+    </section>
+
+  </main><!-- /main -->
+
+
+  <!-- ============================================================
+       FOOTER — Pie de página artístico
+  ============================================================ -->
+  <footer class="footer" role="contentinfo" aria-label="Pie de página">
+
+    <!-- Texto decorativo de fondo -->
+    <p class="footer__bg-text" aria-hidden="true">Pons</p>
+
+    <div class="footer__inner">
+
+      <!-- Bloque superior: marca + nav + cita -->
+      <div class="footer__top">
+
+        <!-- Columna 1: Nombre + homenaje -->
+        <div class="footer__brand reveal">
+          <h2 class="footer__brand-name">
+            Miguel<br />Pons Tous
+          </h2>
+          <span class="footer__brand-line" aria-hidden="true"></span>
+          <p class="footer__brand-tagline">
+            Artista, maestro y creador<br />de belleza duradera.
+          </p>
+          <p class="footer__tribute">
+            Este sitio es un homenaje familiar y artístico
+            dedicado a preservar y difundir la memoria,
+            la obra y el legado de Miguel Pons Tous —
+            un hombre cuya sensibilidad transformó
+            todo lo que tocó en arte.
+          </p>
+        </div>
+
+        <!-- Columna 2: Navegación secundaria -->
+        <nav class="footer__nav reveal reveal--delay-1" aria-label="Navegación secundaria">
+          <p class="footer__nav-title">Explorar</p>
+          <ul class="footer__nav-list">
+            <li><a href="#inicio"       class="footer__nav-link">Inicio</a></li>
+            <li><a href="#biografia"    class="footer__nav-link">Biografía</a></li>
+            <li><a href="#obras"        class="footer__nav-link">Obras</a></li>
+            <li><a href="#castanuelas"  class="footer__nav-link">Castañuelas</a></li>
+            <li><a href="#exposiciones" class="footer__nav-link">Exposiciones</a></li>
+            <li><a href="#contacto"     class="footer__nav-link">Contacto</a></li>
+          </ul>
+        </nav>
+
+        <!-- Columna 3: Cita artística -->
+        <blockquote class="footer__quote reveal reveal--delay-2">
+          <p class="footer__quote-text">
+            "El arte no imita la vida,<br />
+            la recuerda con más verdad."
+          </p>
+          <footer class="footer__quote-author">Miguel Pons Tous</footer>
+        </blockquote>
+
+      </div><!-- /footer__top -->
+
+      <!-- Bloque inferior: copyright -->
+      <div class="footer__bottom">
+        <p class="footer__copyright">
+          &copy; <span id="footer-year"></span> Familia Pons Tous
+          <span class="footer__bottom-dot" aria-hidden="true">&nbsp;·&nbsp;</span>
+          Todos los derechos reservados
+        </p>
+        <div class="footer__bottom-meta" aria-label="Información técnica">
+          <span>Homenaje artístico y familiar</span>
+          <span class="footer__bottom-dot" aria-hidden="true">·</span>
+          <span>Hecho con amor</span>
+        </div>
+      </div>
+
+    </div><!-- /footer__inner -->
+  </footer>
+
+
+  <!-- ============================================================
+       SCRIPTS
+  ============================================================ -->
   <script src="assets/js/script.js"></script>
+
+  <!-- Año dinámico en el footer -->
+  <script>
+    const yearEl = document.getElementById('footer-year');
+    if (yearEl) yearEl.textContent = new Date().getFullYear();
+  </script>
+
 </body>
 </html>

@@ -1,0 +1,409 @@
+<!DOCTYPE html>
+<html lang="es" data-theme="light">
+<!--
+  ============================================================
+  MIGUEL PONS TOUS — HOMENAJE ARTÍSTICO
+  pages/obras.html — Galería de obras
+  ============================================================
+-->
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Galería de obras de Miguel Pons Tous — pinturas, dibujos y pasteles de un artista mallorquín." />
+  <meta name="theme-color" content="#B8893A" />
+
+  <title>Obras — Miguel Pons Tous</title>
+
+  <!-- Tipografías (mismas que el sitio principal) -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;1,300;1,400;1,500&family=Cormorant+SC:wght@300;400;500&family=Jost:wght@200;300;400&display=swap"
+    rel="stylesheet"
+  />
+
+  <!-- Estilos: base + galería -->
+  <link rel="stylesheet" href="../assets/css/style.css" />
+  <link rel="stylesheet" href="../assets/css/obras.css" />
+
+  <!--
+    Prevención de flash de tema incorrecto.
+    Script inline intencional — se ejecuta antes del render.
+  -->
+  <script>
+    (function () {
+      const saved = localStorage.getItem('mpt-theme');
+      const dark  = window.matchMedia('(prefers-color-scheme: dark)').matches;
+      document.documentElement.setAttribute(
+        'data-theme',
+        saved || (dark ? 'dark' : 'light')
+      );
+    })();
+  </script>
+</head>
+
+<body>
+
+  <!-- ============================================================
+       NAVBAR — Idéntica al sitio principal
+       (Los hrefs apuntan a ../index.html#sección)
+  ============================================================ -->
+  <header class="navbar" role="banner" id="site-header">
+    <div class="navbar__inner">
+
+      <!-- Marca -->
+      <a href="../index.html" class="navbar__brand" aria-label="Miguel Pons Tous — Inicio">
+        <span class="navbar__brand-name">Miguel Pons Tous</span>
+        <span class="navbar__brand-sub">Artista · Maestro</span>
+      </a>
+
+      <!-- Navegación desktop -->
+      <nav class="navbar__nav" role="navigation" aria-label="Navegación principal">
+        <a href="../index.html#inicio"       class="navbar__link">Inicio</a>
+        <a href="../index.html#biografia"    class="navbar__link">Biografía</a>
+        <a href="obras.html"                 class="navbar__link is-active" aria-current="page">Obras</a>
+        <a href="../index.html#castanuelas"  class="navbar__link">Castañuelas</a>
+        <a href="../index.html#exposiciones" class="navbar__link">Exposiciones</a>
+        <a href="../index.html#contacto"     class="navbar__link">Contacto</a>
+      </nav>
+
+      <!-- Controles -->
+      <div class="navbar__controls">
+
+        <button class="btn-theme" aria-label="Cambiar a modo oscuro" title="Cambiar tema">
+          <svg class="icon-moon" width="16" height="16" viewBox="0 0 24 24" fill="none"
+               stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"
+               aria-hidden="true">
+            <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"/>
+          </svg>
+          <svg class="icon-sun" width="16" height="16" viewBox="0 0 24 24" fill="none"
+               stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"
+               aria-hidden="true">
+            <circle cx="12" cy="12" r="5"/>
+            <line x1="12" y1="1"  x2="12" y2="3"/><line x1="12" y1="21" x2="12" y2="23"/>
+            <line x1="4.22" y1="4.22" x2="5.64" y2="5.64"/>
+            <line x1="18.36" y1="18.36" x2="19.78" y2="19.78"/>
+            <line x1="1" y1="12" x2="3" y2="12"/><line x1="21" y1="12" x2="23" y2="12"/>
+            <line x1="4.22" y1="19.78" x2="5.64" y2="18.36"/>
+            <line x1="18.36" y1="5.64" x2="19.78" y2="4.22"/>
+          </svg>
+        </button>
+
+        <button class="btn-menu" aria-label="Abrir menú" aria-expanded="false" aria-controls="mobile-drawer">
+          <span class="btn-menu__bar"></span>
+          <span class="btn-menu__bar"></span>
+          <span class="btn-menu__bar"></span>
+        </button>
+
+      </div>
+    </div>
+  </header>
+
+  <!-- Menú mobile drawer -->
+  <div class="navbar__drawer" id="mobile-drawer" role="dialog" aria-label="Menú de navegación">
+    <a href="../index.html"              class="navbar__drawer-link">Inicio</a>
+    <div class="navbar__drawer-ornament"></div>
+    <a href="../index.html#biografia"    class="navbar__drawer-link">Biografía</a>
+    <div class="navbar__drawer-ornament"></div>
+    <a href="obras.html"                 class="navbar__drawer-link">Obras</a>
+    <div class="navbar__drawer-ornament"></div>
+    <a href="../index.html#castanuelas"  class="navbar__drawer-link">Castañuelas</a>
+    <div class="navbar__drawer-ornament"></div>
+    <a href="../index.html#exposiciones" class="navbar__drawer-link">Exposiciones</a>
+    <div class="navbar__drawer-ornament"></div>
+    <a href="../index.html#contacto"     class="navbar__drawer-link">Contacto</a>
+  </div>
+
+
+  <!-- ============================================================
+       MAIN — Galería de Obras
+  ============================================================ -->
+  <main id="main-content">
+
+    <!-- ==========================================
+         CABECERA DE PÁGINA — Estética portada de catálogo
+    =========================================== -->
+    <section class="gallery-hero" aria-label="Galería de obras">
+
+      <!-- Fondo con líneas decorativas (coherencia visual con el hero) -->
+      <div class="gallery-hero__bg" aria-hidden="true">
+        <div class="gallery-hero__line"></div>
+        <div class="gallery-hero__line"></div>
+        <div class="gallery-hero__line"></div>
+        <div class="gallery-hero__line"></div>
+        <div class="gallery-hero__line"></div>
+      </div>
+
+      <div class="gallery-hero__inner">
+
+        <!-- Número de catálogo (estética museo) -->
+        <p class="gallery-hero__catalog" aria-hidden="true">Catálogo — 002</p>
+
+        <!-- Eyebrow -->
+        <p class="gallery-hero__eyebrow">
+          <span class="gallery-hero__eyebrow-line" aria-hidden="true"></span>
+          Homenaje artístico · Familia Pons Tous
+        </p>
+
+        <!-- Título -->
+        <h1 class="gallery-hero__title">
+          <span class="gallery-hero__title-line">Galería</span>
+          <span class="gallery-hero__title-line gallery-hero__title-line--accent">de Obras</span>
+        </h1>
+
+        <!-- Descripción -->
+        <p class="gallery-hero__desc">
+          Una selección de pinturas, dibujos y pasteles que recorren
+          cuatro décadas de creación.<br />Cada obra, un instante de
+          un alma que nunca dejó de mirar.
+        </p>
+
+        <!-- Contador de obras (lo rellena el JS) -->
+        <p class="gallery-hero__count" id="obras-count" aria-live="polite">
+          Cargando colección&hellip;
+        </p>
+
+      </div><!-- /gallery-hero__inner -->
+    </section>
+    <!-- /gallery-hero -->
+
+
+    <!-- ==========================================
+         FILTROS — Por técnica
+    =========================================== -->
+    <div class="gallery-filters" role="group" aria-label="Filtrar obras por técnica">
+      <div class="gallery-filters__inner">
+
+        <p class="gallery-filters__label" aria-hidden="true">Filtrar por técnica</p>
+
+        <div class="gallery-filters__pills" id="filter-pills" role="list">
+          <!-- Los filtros se generan dinámicamente desde el JS -->
+          <!-- Fallback para no-JS o mientras carga -->
+          <button
+            class="filter-pill filter-pill--active"
+            data-filter="todas"
+            aria-pressed="true"
+            role="listitem"
+          >
+            Todas las obras
+          </button>
+        </div>
+
+      </div>
+    </div>
+    <!-- /gallery-filters -->
+
+
+    <!-- ==========================================
+         GALERÍA PRINCIPAL
+    =========================================== -->
+    <section class="gallery-section" aria-label="Obras del artista">
+      <div class="gallery-section__inner">
+
+        <!--
+          El grid se genera completamente desde JavaScript.
+          Este contenedor actúa como punto de montaje.
+        -->
+        <div class="gallery-grid" id="gallery-grid" aria-live="polite">
+
+          <!-- Estado de carga -->
+          <div class="gallery-loading" id="gallery-loading" aria-label="Cargando obras">
+            <div class="gallery-loading__dots" aria-hidden="true">
+              <span></span><span></span><span></span>
+            </div>
+            <p class="gallery-loading__text">Preparando la galería&hellip;</p>
+          </div>
+
+        </div><!-- /gallery-grid -->
+
+        <!-- Estado de error (oculto por defecto) -->
+        <div class="gallery-error" id="gallery-error" hidden aria-live="assertive">
+          <p class="gallery-error__icon" aria-hidden="true">✦</p>
+          <p class="gallery-error__title">No se pudo cargar la galería</p>
+          <p class="gallery-error__desc">Por favor, verifica que el archivo <code>data/obras.json</code> existe y es accesible.</p>
+        </div>
+
+        <!-- Estado vacío — cuando ningún filtro tiene resultados -->
+        <div class="gallery-empty" id="gallery-empty" hidden>
+          <p class="gallery-empty__icon" aria-hidden="true">○</p>
+          <p class="gallery-empty__text">No hay obras con esta técnica.</p>
+        </div>
+
+      </div>
+    </section>
+    <!-- /gallery-section -->
+
+  </main>
+
+
+  <!-- ============================================================
+       LIGHTBOX — Visualizador de obra ampliada
+       (el JS controla su visibilidad y contenido)
+  ============================================================ -->
+  <div
+    class="lightbox"
+    id="lightbox"
+    role="dialog"
+    aria-modal="true"
+    aria-label="Visualizador de obra"
+    aria-hidden="true"
+    hidden
+  >
+    <!-- Fondo oscuro — clic para cerrar -->
+    <div class="lightbox__backdrop" id="lightbox-backdrop" aria-hidden="true"></div>
+
+    <!-- Panel principal -->
+    <div class="lightbox__panel" role="document">
+
+      <!-- Botón cerrar -->
+      <button class="lightbox__close" id="lightbox-close" aria-label="Cerrar visualizador">
+        <svg width="20" height="20" viewBox="0 0 24 24" fill="none"
+             stroke="currentColor" stroke-width="1.5" stroke-linecap="round"
+             stroke-linejoin="round" aria-hidden="true">
+          <line x1="18" y1="6" x2="6" y2="18"/>
+          <line x1="6"  y1="6" x2="18" y2="18"/>
+        </svg>
+      </button>
+
+      <!-- Zona de imagen -->
+      <div class="lightbox__image-zone">
+
+        <!-- Botón prev -->
+        <button class="lightbox__nav lightbox__nav--prev" id="lightbox-prev"
+                aria-label="Obra anterior">
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="none"
+               stroke="currentColor" stroke-width="1.5" stroke-linecap="round"
+               stroke-linejoin="round" aria-hidden="true">
+            <polyline points="15 18 9 12 15 6"/>
+          </svg>
+        </button>
+
+        <!-- Imagen de la obra -->
+        <figure class="lightbox__figure">
+          <img class="lightbox__img" id="lightbox-img" src="" alt="" />
+          <!-- Placeholder SVG mientras carga (oculto cuando la imagen está lista) -->
+          <div class="lightbox__img-placeholder" id="lightbox-placeholder" aria-hidden="true"></div>
+        </figure>
+
+        <!-- Botón next -->
+        <button class="lightbox__nav lightbox__nav--next" id="lightbox-next"
+                aria-label="Obra siguiente">
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="none"
+               stroke="currentColor" stroke-width="1.5" stroke-linecap="round"
+               stroke-linejoin="round" aria-hidden="true">
+            <polyline points="9 18 15 12 9 6"/>
+          </svg>
+        </button>
+
+      </div><!-- /lightbox__image-zone -->
+
+      <!-- Panel de información -->
+      <aside class="lightbox__info" aria-label="Información de la obra">
+
+        <!-- Técnica (badge) -->
+        <p class="lightbox__tecnica" id="lightbox-tecnica"></p>
+
+        <!-- Título -->
+        <h2 class="lightbox__titulo" id="lightbox-titulo"></h2>
+
+        <!-- Separador dorado -->
+        <div class="lightbox__divider" aria-hidden="true"></div>
+
+        <!-- Metadatos -->
+        <dl class="lightbox__meta">
+          <div class="lightbox__meta-row">
+            <dt>Año</dt>
+            <dd id="lightbox-anio"></dd>
+          </div>
+          <div class="lightbox__meta-row">
+            <dt>Medidas</dt>
+            <dd id="lightbox-medidas"></dd>
+          </div>
+        </dl>
+
+        <!-- Descripción -->
+        <p class="lightbox__desc" id="lightbox-desc"></p>
+
+        <!-- Contador -->
+        <p class="lightbox__counter" id="lightbox-counter" aria-live="polite"></p>
+
+      </aside><!-- /lightbox__info -->
+
+    </div><!-- /lightbox__panel -->
+  </div>
+  <!-- /LIGHTBOX -->
+
+
+  <!-- ============================================================
+       FOOTER — Idéntico al sitio principal
+  ============================================================ -->
+  <footer class="footer" role="contentinfo" aria-label="Pie de página">
+    <p class="footer__bg-text" aria-hidden="true">Pons</p>
+
+    <div class="footer__inner">
+      <div class="footer__top">
+
+        <!-- Columna 1 -->
+        <div class="footer__brand reveal">
+          <h2 class="footer__brand-name">Miguel<br />Pons Tous</h2>
+          <span class="footer__brand-line" aria-hidden="true"></span>
+          <p class="footer__brand-tagline">Artista, maestro y creador<br />de belleza duradera.</p>
+          <p class="footer__tribute">
+            Este sitio es un homenaje familiar y artístico
+            dedicado a preservar y difundir la memoria,
+            la obra y el legado de Miguel Pons Tous.
+          </p>
+        </div>
+
+        <!-- Columna 2 -->
+        <nav class="footer__nav reveal reveal--delay-1" aria-label="Navegación secundaria">
+          <p class="footer__nav-title">Explorar</p>
+          <ul class="footer__nav-list">
+            <li><a href="../index.html"              class="footer__nav-link">Inicio</a></li>
+            <li><a href="../index.html#biografia"    class="footer__nav-link">Biografía</a></li>
+            <li><a href="obras.html"                 class="footer__nav-link">Obras</a></li>
+            <li><a href="../index.html#castanuelas"  class="footer__nav-link">Castañuelas</a></li>
+            <li><a href="../index.html#exposiciones" class="footer__nav-link">Exposiciones</a></li>
+            <li><a href="../index.html#contacto"     class="footer__nav-link">Contacto</a></li>
+          </ul>
+        </nav>
+
+        <!-- Columna 3 -->
+        <blockquote class="footer__quote reveal reveal--delay-2">
+          <p class="footer__quote-text">
+            "El arte no imita la vida,<br />
+            la recuerda con más verdad."
+          </p>
+          <footer class="footer__quote-author">Miguel Pons Tous</footer>
+        </blockquote>
+
+      </div>
+
+      <div class="footer__bottom">
+        <p class="footer__copyright">
+          &copy; <span id="footer-year"></span> Familia Pons Tous
+          <span class="footer__bottom-dot" aria-hidden="true">&nbsp;·&nbsp;</span>
+          Todos los derechos reservados
+        </p>
+        <div class="footer__bottom-meta">
+          <span>Homenaje artístico y familiar</span>
+          <span class="footer__bottom-dot" aria-hidden="true">·</span>
+          <span>Hecho con amor</span>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+
+  <!-- Scripts -->
+  <script src="../assets/js/script.js"></script>
+  <script src="../assets/js/obras.js"></script>
+
+  <!-- Año dinámico en el footer -->
+  <script>
+    const yearEl = document.getElementById('footer-year');
+    if (yearEl) yearEl.textContent = new Date().getFullYear();
+  </script>
+
+</body>
+</html>

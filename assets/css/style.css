@@ -1,0 +1,1114 @@
+/* ============================================================
+   MIGUEL PONS TOUS — HOMENAJE ARTÍSTICO
+   style.css — Estilos globales del sitio
+   Estética: Museo contemporáneo mediterráneo | Cinéma-gráfico
+   ============================================================ */
+
+
+/* ============================================================
+   1. VARIABLES Y TOKENS DE DISEÑO
+   ============================================================ */
+
+:root {
+  /* — Paleta Modo Claro (marfil cálido + carbón + oro) — */
+  --color-bg:           #F5F1EB;       /* marfil caliente */
+  --color-bg-alt:       #EDE8E0;       /* marfil oscuro */
+  --color-surface:      #FDFAF6;       /* superficie elevada */
+  --color-text:         #1C1A17;       /* carbón profundo */
+  --color-text-muted:   #6B6459;       /* tierra cálida */
+  --color-text-light:   #9C9087;       /* arena */
+  --color-accent:       #B8893A;       /* oro artesanal */
+  --color-accent-soft:  #D4AA6A;       /* oro claro */
+  --color-accent-dark:  #8A6325;       /* oro profundo */
+  --color-border:       rgba(184, 137, 58, 0.20);
+  --color-border-light: rgba(28, 26, 23, 0.08);
+  --color-overlay:      rgba(28, 26, 23, 0.55);
+
+  /* — Paleta Navbar — */
+  --navbar-bg:          rgba(245, 241, 235, 0.85);
+  --navbar-border:      rgba(184, 137, 58, 0.15);
+
+  /* — Tipografía — */
+  --font-display:  'Cormorant Garamond', 'Times New Roman', serif;
+  --font-body:     'Jost', 'Gill Sans', sans-serif;
+  --font-accent:   'Cormorant SC', 'Times New Roman', serif;
+
+  /* — Escalas tipográficas — */
+  --text-xs:    0.70rem;
+  --text-sm:    0.85rem;
+  --text-base:  1rem;
+  --text-md:    1.15rem;
+  --text-lg:    1.35rem;
+  --text-xl:    1.75rem;
+  --text-2xl:   2.25rem;
+  --text-3xl:   3rem;
+  --text-4xl:   4.25rem;
+  --text-5xl:   5.5rem;
+  --text-hero:  clamp(3.5rem, 8vw, 7.5rem);
+
+  /* — Espaciado — */
+  --space-xs:   0.375rem;
+  --space-sm:   0.75rem;
+  --space-md:   1.25rem;
+  --space-lg:   2rem;
+  --space-xl:   3.5rem;
+  --space-2xl:  5.5rem;
+  --space-3xl:  8rem;
+
+  /* — Bordes y radios — */
+  --radius-sm:   3px;
+  --radius-md:   6px;
+  --radius-lg:   12px;
+
+  /* — Sombras — */
+  --shadow-sm:  0 1px 4px rgba(28, 26, 23, 0.06), 0 2px 12px rgba(28, 26, 23, 0.04);
+  --shadow-md:  0 4px 20px rgba(28, 26, 23, 0.10), 0 1px 4px rgba(28, 26, 23, 0.06);
+  --shadow-lg:  0 12px 48px rgba(28, 26, 23, 0.14), 0 4px 16px rgba(28, 26, 23, 0.08);
+
+  /* — Transiciones — */
+  --transition-fast:   150ms cubic-bezier(0.4, 0, 0.2, 1);
+  --transition-base:   300ms cubic-bezier(0.4, 0, 0.2, 1);
+  --transition-slow:   600ms cubic-bezier(0.25, 0.46, 0.45, 0.94);
+  --transition-reveal: 800ms cubic-bezier(0.16, 1, 0.3, 1);
+
+  /* — Layout — */
+  --container-max:  1200px;
+  --container-wide: 1440px;
+  --navbar-h:       72px;
+
+  /* — Línea decorativa de oro — */
+  --line-gold: 1px solid var(--color-accent);
+}
+
+
+/* — Variables Modo Oscuro — */
+[data-theme="dark"] {
+  --color-bg:           #0E0C0A;       /* negro carbón */
+  --color-bg-alt:       #161310;       /* fondo alternativo */
+  --color-surface:      #1C1916;       /* superficie */
+  --color-text:         #E8E2D8;       /* marfil claro */
+  --color-text-muted:   #A09286;       /* arena oscura */
+  --color-text-light:   #6E6158;       /* tierra oscura */
+  --color-accent:       #C9994A;       /* oro cálido */
+  --color-accent-soft:  #E0B96A;       /* oro suave */
+  --color-accent-dark:  #A07030;       /* oro profundo */
+  --color-border:       rgba(201, 153, 74, 0.22);
+  --color-border-light: rgba(232, 226, 216, 0.08);
+  --color-overlay:      rgba(10, 8, 6, 0.70);
+
+  --navbar-bg:          rgba(14, 12, 10, 0.88);
+  --navbar-border:      rgba(201, 153, 74, 0.18);
+
+  --shadow-sm:  0 1px 4px rgba(0, 0, 0, 0.25), 0 2px 12px rgba(0, 0, 0, 0.15);
+  --shadow-md:  0 4px 20px rgba(0, 0, 0, 0.35), 0 1px 4px rgba(0, 0, 0, 0.20);
+  --shadow-lg:  0 12px 48px rgba(0, 0, 0, 0.50), 0 4px 16px rgba(0, 0, 0, 0.30);
+}
+
+
+/* ============================================================
+   2. RESET Y BASE GLOBAL
+   ============================================================ */
+
+*, *::before, *::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  scroll-behavior: smooth;
+  font-size: 16px;
+  -webkit-text-size-adjust: 100%;
+}
+
+body {
+  font-family:      var(--font-body);
+  font-weight:      300;
+  line-height:      1.75;
+  color:            var(--color-text);
+  background-color: var(--color-bg);
+  /* Grano artesanal muy sutil */
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='400' height='400'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.75' numOctaves='4' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='400' height='400' filter='url(%23n)' opacity='0.025'/%3E%3C/svg%3E");
+  min-height: 100vh;
+  overflow-x: hidden;
+  transition:
+    background-color var(--transition-slow),
+    color var(--transition-slow);
+}
+
+/* Cursor personalizado en desktop */
+@media (pointer: fine) {
+  body { cursor: default; }
+  a, button { cursor: pointer; }
+}
+
+img, video {
+  max-width: 100%;
+  display: block;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+  transition: color var(--transition-fast);
+}
+
+ul, ol { list-style: none; }
+
+button {
+  font-family: inherit;
+  border: none;
+  background: none;
+  cursor: pointer;
+}
+
+::selection {
+  background: var(--color-accent);
+  color: var(--color-bg);
+}
+
+/* Scrollbar artística */
+::-webkit-scrollbar       { width: 5px; }
+::-webkit-scrollbar-track { background: var(--color-bg-alt); }
+::-webkit-scrollbar-thumb { background: var(--color-accent); border-radius: 99px; }
+
+
+/* ============================================================
+   3. TIPOGRAFÍA GLOBAL
+   ============================================================ */
+
+h1, h2, h3, h4, h5 {
+  font-family:    var(--font-display);
+  font-weight:    400;
+  line-height:    1.15;
+  letter-spacing: -0.01em;
+}
+
+.font-display { font-family: var(--font-display); }
+.font-accent  { font-family: var(--font-accent);  }
+.font-body    { font-family: var(--font-body);    }
+
+/* Ornamento tipográfico — línea dorada bajo títulos */
+.title-ornament {
+  position: relative;
+  display: inline-block;
+}
+.title-ornament::after {
+  content: '';
+  display: block;
+  width: 2.5rem;
+  height: 1px;
+  background: var(--color-accent);
+  margin-top: 0.6rem;
+}
+
+
+/* ============================================================
+   4. UTILIDADES Y LAYOUTS COMUNES
+   ============================================================ */
+
+.container {
+  width: 100%;
+  max-width: var(--container-max);
+  margin-inline: auto;
+  padding-inline: var(--space-lg);
+}
+
+.container--wide {
+  max-width: var(--container-wide);
+  padding-inline: var(--space-xl);
+}
+
+/* Divisor decorativo dorado */
+.divider {
+  display: flex;
+  align-items: center;
+  gap: var(--space-md);
+  margin-block: var(--space-xl);
+  color: var(--color-text-light);
+  font-family: var(--font-accent);
+  font-size: var(--text-xs);
+  letter-spacing: 0.18em;
+  text-transform: uppercase;
+}
+.divider::before,
+.divider::after {
+  content: '';
+  flex: 1;
+  height: 1px;
+  background: var(--color-border);
+}
+
+/* Animaciones de entrada (JS las activa) */
+.reveal {
+  opacity: 0;
+  transform: translateY(28px);
+  transition:
+    opacity var(--transition-reveal),
+    transform var(--transition-reveal);
+}
+.reveal.is-visible {
+  opacity: 1;
+  transform: translateY(0);
+}
+.reveal--delay-1 { transition-delay: 120ms; }
+.reveal--delay-2 { transition-delay: 240ms; }
+.reveal--delay-3 { transition-delay: 380ms; }
+.reveal--delay-4 { transition-delay: 520ms; }
+
+
+/* ============================================================
+   5. NAVBAR
+   ============================================================ */
+
+.navbar {
+  position:   fixed;
+  top:        0;
+  left:       0;
+  right:      0;
+  z-index:    900;
+  height:     var(--navbar-h);
+  display:    flex;
+  align-items: center;
+  background: transparent;
+  transition:
+    background-color var(--transition-base),
+    backdrop-filter  var(--transition-base),
+    border-color     var(--transition-base),
+    box-shadow       var(--transition-base);
+  border-bottom: 1px solid transparent;
+}
+
+/* Navbar con scroll — activa el fondo traslúcido */
+.navbar.is-scrolled {
+  background:     var(--navbar-bg);
+  backdrop-filter: blur(16px) saturate(180%);
+  -webkit-backdrop-filter: blur(16px) saturate(180%);
+  border-bottom-color: var(--navbar-border);
+  box-shadow: var(--shadow-sm);
+}
+
+.navbar__inner {
+  display:         flex;
+  align-items:     center;
+  justify-content: space-between;
+  width:           100%;
+  max-width:       var(--container-wide);
+  margin-inline:   auto;
+  padding-inline:  var(--space-xl);
+}
+
+/* — Logotipo / nombre del artista — */
+.navbar__brand {
+  display:     flex;
+  flex-direction: column;
+  gap:         0;
+  line-height: 1;
+  text-decoration: none;
+  flex-shrink: 0;
+}
+.navbar__brand-name {
+  font-family:    var(--font-display);
+  font-size:      var(--text-lg);
+  font-weight:    400;
+  color:          var(--color-text);
+  letter-spacing: 0.03em;
+  transition: color var(--transition-fast);
+}
+.navbar__brand-sub {
+  font-family:    var(--font-body);
+  font-size:      var(--text-xs);
+  font-weight:    400;
+  color:          var(--color-accent);
+  letter-spacing: 0.22em;
+  text-transform: uppercase;
+}
+
+/* — Navegación principal (desktop) — */
+.navbar__nav {
+  display:     flex;
+  align-items: center;
+  gap:         var(--space-xl);
+}
+
+.navbar__link {
+  font-family:    var(--font-body);
+  font-size:      var(--text-xs);
+  font-weight:    400;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  color:          var(--color-text-muted);
+  position:       relative;
+  padding-bottom: 2px;
+  transition:     color var(--transition-fast);
+}
+.navbar__link::after {
+  content:    '';
+  position:   absolute;
+  bottom:     0;
+  left:       0;
+  width:      0;
+  height:     1px;
+  background: var(--color-accent);
+  transition: width var(--transition-base);
+}
+.navbar__link:hover {
+  color: var(--color-text);
+}
+.navbar__link:hover::after,
+.navbar__link.is-active::after {
+  width: 100%;
+}
+.navbar__link.is-active {
+  color: var(--color-accent);
+}
+
+/* — Controles: dark mode + hamburguesa — */
+.navbar__controls {
+  display:     flex;
+  align-items: center;
+  gap:         var(--space-md);
+}
+
+/* Toggle dark mode */
+.btn-theme {
+  width:           36px;
+  height:          36px;
+  border-radius:   50%;
+  display:         flex;
+  align-items:     center;
+  justify-content: center;
+  color:           var(--color-text-muted);
+  border:          1px solid var(--color-border-light);
+  transition:
+    color            var(--transition-fast),
+    border-color     var(--transition-fast),
+    background-color var(--transition-fast),
+    transform        var(--transition-fast);
+}
+.btn-theme:hover {
+  color:        var(--color-accent);
+  border-color: var(--color-border);
+  transform:    rotate(15deg);
+}
+.btn-theme .icon-sun  { display: none; }
+.btn-theme .icon-moon { display: block; }
+
+[data-theme="dark"] .btn-theme .icon-sun  { display: block; }
+[data-theme="dark"] .btn-theme .icon-moon { display: none; }
+
+/* — Hamburguesa — */
+.btn-menu {
+  width:           40px;
+  height:          40px;
+  display:         none;        /* visible solo en mobile */
+  flex-direction:  column;
+  justify-content: center;
+  align-items:     center;
+  gap:             5px;
+  border-radius:   var(--radius-sm);
+  transition: gap var(--transition-fast);
+}
+.btn-menu__bar {
+  display:          block;
+  width:            22px;
+  height:           1px;
+  background:       var(--color-text);
+  border-radius:    99px;
+  transform-origin: center;
+  transition:
+    transform  var(--transition-base),
+    opacity    var(--transition-fast),
+    width      var(--transition-fast);
+}
+
+/* Hamburguesa activa → Cruz */
+.btn-menu.is-open .btn-menu__bar:nth-child(1) {
+  transform: translateY(6px) rotate(45deg);
+}
+.btn-menu.is-open .btn-menu__bar:nth-child(2) {
+  opacity: 0;
+  width: 0;
+}
+.btn-menu.is-open .btn-menu__bar:nth-child(3) {
+  transform: translateY(-6px) rotate(-45deg);
+}
+
+/* — Mobile Nav Drawer — */
+.navbar__drawer {
+  position:         fixed;
+  top:              var(--navbar-h);
+  left:             0;
+  right:            0;
+  bottom:           0;
+  background:       var(--color-bg);
+  display:          flex;
+  flex-direction:   column;
+  justify-content:  center;
+  align-items:      center;
+  gap:              var(--space-xl);
+  transform:        translateY(-100%);
+  opacity:          0;
+  pointer-events:   none;
+  transition:
+    transform var(--transition-slow),
+    opacity   var(--transition-slow);
+  z-index: 800;
+}
+.navbar__drawer.is-open {
+  transform:      translateY(0);
+  opacity:        1;
+  pointer-events: auto;
+}
+
+.navbar__drawer-link {
+  font-family:    var(--font-display);
+  font-size:      var(--text-3xl);
+  font-weight:    400;
+  color:          var(--color-text);
+  letter-spacing: 0.02em;
+  transition:     color var(--transition-fast);
+  position: relative;
+}
+.navbar__drawer-link:hover {
+  color: var(--color-accent);
+}
+
+/* Línea decorativa bajo el nombre del artista en el drawer */
+.navbar__drawer-ornament {
+  width:      60px;
+  height:     1px;
+  background: var(--color-accent);
+  opacity:    0.6;
+}
+
+
+/* ============================================================
+   6. HERO SECTION
+   ============================================================ */
+
+.hero {
+  position:        relative;
+  min-height:      100svh;
+  display:         flex;
+  flex-direction:  column;
+  justify-content: flex-end;
+  overflow:        hidden;
+  padding-top:     var(--navbar-h);
+}
+
+/* — Fondo cinematográfico — */
+.hero__bg {
+  position: absolute;
+  inset:    0;
+  z-index:  0;
+  /* Gradiente cálido que sugiere luz de estudio artístico */
+  background:
+    radial-gradient(ellipse 80% 70% at 25% 40%,
+      rgba(184, 137, 58, 0.12) 0%,
+      transparent 65%),
+    radial-gradient(ellipse 60% 80% at 80% 70%,
+      rgba(28, 26, 23, 0.06) 0%,
+      transparent 70%),
+    linear-gradient(160deg,
+      var(--color-bg-alt) 0%,
+      var(--color-bg)     45%,
+      #E8E0D4             100%);
+}
+
+[data-theme="dark"] .hero__bg {
+  background:
+    radial-gradient(ellipse 80% 70% at 25% 40%,
+      rgba(201, 153, 74, 0.10) 0%,
+      transparent 65%),
+    radial-gradient(ellipse 50% 80% at 85% 60%,
+      rgba(201, 100, 40, 0.06) 0%,
+      transparent 60%),
+    linear-gradient(160deg,
+      #1A1612 0%,
+      var(--color-bg) 50%,
+      #0A0806 100%);
+}
+
+/* Líneas verticales decorativas tipo partitura */
+.hero__lines {
+  position:       absolute;
+  inset:          0;
+  z-index:        1;
+  pointer-events: none;
+  overflow:       hidden;
+}
+.hero__line {
+  position:   absolute;
+  top:        0;
+  bottom:     0;
+  width:      1px;
+  background: linear-gradient(to bottom,
+    transparent 0%,
+    var(--color-border) 30%,
+    var(--color-border) 70%,
+    transparent 100%);
+  opacity: 0.5;
+}
+.hero__line:nth-child(1) { left: 16.666%; }
+.hero__line:nth-child(2) { left: 33.333%; }
+.hero__line:nth-child(3) { left: 50%;     }
+.hero__line:nth-child(4) { left: 66.666%; }
+.hero__line:nth-child(5) { left: 83.333%; }
+
+/* Número vertical lateral (estética catálogo de museo) */
+.hero__catalog-number {
+  position:       absolute;
+  top:            50%;
+  right:          var(--space-xl);
+  transform:      translateY(-50%) rotate(90deg);
+  transform-origin: center center;
+  font-family:    var(--font-body);
+  font-size:      var(--text-xs);
+  font-weight:    300;
+  letter-spacing: 0.25em;
+  color:          var(--color-text-light);
+  text-transform: uppercase;
+  z-index:        2;
+  white-space:    nowrap;
+}
+
+/* — Contenido principal del hero — */
+.hero__content {
+  position:   relative;
+  z-index:    3;
+  padding:    var(--space-3xl) 0 var(--space-2xl);
+}
+
+.hero__inner {
+  max-width:      var(--container-wide);
+  margin-inline:  auto;
+  padding-inline: var(--space-xl);
+  display:        grid;
+  grid-template-columns: 1fr auto;
+  align-items:    end;
+  gap:            var(--space-xl);
+}
+
+.hero__text-col { max-width: 780px; }
+
+/* Etiqueta superior */
+.hero__eyebrow {
+  display:        inline-flex;
+  align-items:    center;
+  gap:            var(--space-sm);
+  font-family:    var(--font-body);
+  font-size:      var(--text-xs);
+  font-weight:    400;
+  letter-spacing: 0.22em;
+  text-transform: uppercase;
+  color:          var(--color-accent);
+  margin-bottom:  var(--space-lg);
+}
+.hero__eyebrow-line {
+  display: block;
+  width:   32px;
+  height:  1px;
+  background: var(--color-accent);
+  flex-shrink: 0;
+}
+
+/* Título principal */
+.hero__title {
+  font-family:    var(--font-display);
+  font-size:      var(--text-hero);
+  font-weight:    300;
+  line-height:    0.95;
+  letter-spacing: -0.025em;
+  color:          var(--color-text);
+  margin-bottom:  var(--space-lg);
+}
+
+/* Primera línea del nombre */
+.hero__title-first {
+  display:        block;
+  color:          var(--color-text-muted);
+  font-style:     italic;
+}
+.hero__title-last {
+  display:        block;
+  color:          var(--color-text);
+}
+
+/* Apellido con acento dorado */
+.hero__title-accent {
+  color: var(--color-accent);
+}
+
+/* Subtítulo / tagline emocional */
+.hero__subtitle {
+  font-family:    var(--font-display);
+  font-size:      clamp(1.1rem, 2vw, 1.5rem);
+  font-weight:    300;
+  font-style:     italic;
+  color:          var(--color-text-muted);
+  line-height:    1.5;
+  max-width:      520px;
+  margin-bottom:  var(--space-xl);
+}
+
+/* Botones */
+.hero__actions {
+  display:   flex;
+  flex-wrap: wrap;
+  gap:       var(--space-md);
+}
+
+/* Botón primario */
+.btn-primary {
+  display:        inline-flex;
+  align-items:    center;
+  gap:            var(--space-sm);
+  font-family:    var(--font-body);
+  font-size:      var(--text-xs);
+  font-weight:    400;
+  letter-spacing: 0.16em;
+  text-transform: uppercase;
+  color:          var(--color-bg);
+  background:     var(--color-accent);
+  padding:        0.9rem 2rem;
+  border-radius:  var(--radius-sm);
+  transition:
+    background-color var(--transition-fast),
+    transform        var(--transition-fast),
+    box-shadow       var(--transition-fast);
+}
+.btn-primary:hover {
+  background: var(--color-accent-dark);
+  transform:  translateY(-2px);
+  box-shadow: 0 6px 24px rgba(184, 137, 58, 0.30);
+}
+.btn-primary svg { flex-shrink: 0; }
+
+/* Botón secundario (fantasma) */
+.btn-ghost {
+  display:        inline-flex;
+  align-items:    center;
+  gap:            var(--space-sm);
+  font-family:    var(--font-body);
+  font-size:      var(--text-xs);
+  font-weight:    400;
+  letter-spacing: 0.16em;
+  text-transform: uppercase;
+  color:          var(--color-text);
+  border:         1px solid var(--color-border-light);
+  padding:        0.85rem 2rem;
+  border-radius:  var(--radius-sm);
+  transition:
+    color        var(--transition-fast),
+    border-color var(--transition-fast),
+    transform    var(--transition-fast);
+}
+.btn-ghost:hover {
+  color:        var(--color-accent);
+  border-color: var(--color-accent);
+  transform:    translateY(-2px);
+}
+
+/* Columna lateral del hero — años de vida */
+.hero__meta-col {
+  display:        flex;
+  flex-direction: column;
+  align-items:    flex-end;
+  gap:            var(--space-sm);
+  padding-bottom: 0.5rem;
+}
+.hero__years {
+  font-family:    var(--font-accent);
+  font-size:      var(--text-sm);
+  font-weight:    400;
+  letter-spacing: 0.10em;
+  color:          var(--color-text-muted);
+  writing-mode:   vertical-rl;
+  text-orientation: mixed;
+}
+.hero__meta-line {
+  width:      1px;
+  height:     80px;
+  background: linear-gradient(to bottom, var(--color-accent) 0%, transparent 100%);
+}
+
+/* Scroll indicator */
+.hero__scroll {
+  position:    absolute;
+  bottom:      var(--space-xl);
+  left:        50%;
+  transform:   translateX(-50%);
+  z-index:     3;
+  display:     flex;
+  flex-direction: column;
+  align-items: center;
+  gap:         var(--space-xs);
+  color:       var(--color-text-light);
+  font-family: var(--font-body);
+  font-size:   var(--text-xs);
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  animation:   float 2.5s ease-in-out infinite;
+}
+.hero__scroll-track {
+  width:      1px;
+  height:     50px;
+  background: linear-gradient(to bottom,
+    var(--color-accent) 0%,
+    transparent 100%);
+  position: relative;
+  overflow: hidden;
+}
+.hero__scroll-thumb {
+  position:   absolute;
+  top:        -50%;
+  left:       0;
+  right:      0;
+  height:     50%;
+  background: var(--color-accent);
+  animation:  scroll-down 2s ease-in-out infinite;
+}
+
+@keyframes float {
+  0%, 100% { transform: translateX(-50%) translateY(0); }
+  50%       { transform: translateX(-50%) translateY(5px); }
+}
+
+@keyframes scroll-down {
+  0%   { top: -50%; }
+  100% { top:  150%; }
+}
+
+
+/* ============================================================
+   7. SECCIÓN PLACEHOLDER (para secciones futuras)
+   ============================================================ */
+
+.section-placeholder {
+  min-height:      80vh;
+  display:         flex;
+  flex-direction:  column;
+  align-items:     center;
+  justify-content: center;
+  text-align:      center;
+  padding:         var(--space-3xl) var(--space-lg);
+  border-top:      1px solid var(--color-border-light);
+  gap:             var(--space-lg);
+}
+.section-placeholder__id {
+  font-family:    var(--font-body);
+  font-size:      var(--text-xs);
+  font-weight:    400;
+  letter-spacing: 0.25em;
+  text-transform: uppercase;
+  color:          var(--color-accent);
+}
+.section-placeholder__title {
+  font-family:    var(--font-display);
+  font-size:      var(--text-3xl);
+  font-weight:    300;
+  color:          var(--color-text);
+}
+.section-placeholder__desc {
+  font-family:    var(--font-body);
+  font-size:      var(--text-sm);
+  font-weight:    300;
+  color:          var(--color-text-muted);
+  max-width:      400px;
+  line-height:    1.8;
+}
+.section-placeholder__ornament {
+  display:         flex;
+  align-items:     center;
+  gap:             var(--space-sm);
+  color:           var(--color-border);
+}
+.section-placeholder__ornament::before,
+.section-placeholder__ornament::after {
+  content:    '';
+  display:    block;
+  width:      48px;
+  height:     1px;
+  background: currentColor;
+}
+
+
+/* ============================================================
+   8. FOOTER
+   ============================================================ */
+
+.footer {
+  position:    relative;
+  background:  var(--color-bg-alt);
+  border-top:  1px solid var(--color-border-light);
+  overflow:    hidden;
+}
+
+/* Degradado vertical sutil */
+.footer::before {
+  content:    '';
+  position:   absolute;
+  top:        0;
+  left:       0;
+  right:      0;
+  height:     1px;
+  background: linear-gradient(to right,
+    transparent 0%,
+    var(--color-accent) 30%,
+    var(--color-accent) 70%,
+    transparent 100%);
+  opacity: 0.4;
+}
+
+.footer__inner {
+  max-width:      var(--container-wide);
+  margin-inline:  auto;
+  padding-inline: var(--space-xl);
+  padding-block:  var(--space-2xl) var(--space-xl);
+}
+
+/* — Bloque superior del footer — */
+.footer__top {
+  display:         grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap:             var(--space-xl);
+  padding-bottom:  var(--space-xl);
+  border-bottom:   1px solid var(--color-border-light);
+  align-items:     start;
+}
+
+/* Columna izquierda: nombre + frase */
+.footer__brand { }
+.footer__brand-name {
+  font-family:    var(--font-display);
+  font-size:      var(--text-2xl);
+  font-weight:    300;
+  color:          var(--color-text);
+  line-height:    1.1;
+  margin-bottom:  var(--space-sm);
+}
+.footer__brand-tagline {
+  font-family:    var(--font-display);
+  font-size:      var(--text-md);
+  font-style:     italic;
+  color:          var(--color-text-muted);
+  line-height:    1.5;
+}
+.footer__brand-line {
+  display:      block;
+  width:        40px;
+  height:       1px;
+  background:   var(--color-accent);
+  margin-top:   var(--space-md);
+  margin-bottom: var(--space-md);
+}
+
+.footer__tribute {
+  font-family:    var(--font-body);
+  font-size:      var(--text-sm);
+  font-weight:    300;
+  color:          var(--color-text-muted);
+  line-height:    1.9;
+}
+
+/* Columna central: navegación */
+.footer__nav-title {
+  font-family:    var(--font-body);
+  font-size:      var(--text-xs);
+  font-weight:    400;
+  letter-spacing: 0.20em;
+  text-transform: uppercase;
+  color:          var(--color-accent);
+  margin-bottom:  var(--space-md);
+}
+.footer__nav-list {
+  display:        flex;
+  flex-direction: column;
+  gap:            var(--space-sm);
+}
+.footer__nav-link {
+  font-family:    var(--font-body);
+  font-size:      var(--text-sm);
+  font-weight:    300;
+  color:          var(--color-text-muted);
+  transition:     color var(--transition-fast);
+  display:        flex;
+  align-items:    center;
+  gap:            var(--space-xs);
+}
+.footer__nav-link::before {
+  content:    '—';
+  color:      var(--color-accent);
+  opacity:    0;
+  transform:  translateX(-4px);
+  transition:
+    opacity   var(--transition-fast),
+    transform var(--transition-fast);
+  font-size:  var(--text-xs);
+}
+.footer__nav-link:hover {
+  color: var(--color-text);
+}
+.footer__nav-link:hover::before {
+  opacity:   1;
+  transform: translateX(0);
+}
+
+/* Columna derecha: cita artística */
+.footer__quote {
+  text-align: right;
+}
+.footer__quote-text {
+  font-family:    var(--font-display);
+  font-size:      var(--text-xl);
+  font-style:     italic;
+  font-weight:    300;
+  color:          var(--color-text-muted);
+  line-height:    1.4;
+  margin-bottom:  var(--space-sm);
+}
+.footer__quote-author {
+  font-family:    var(--font-body);
+  font-size:      var(--text-xs);
+  font-weight:    400;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  color:          var(--color-accent);
+}
+
+/* — Bloque inferior del footer — */
+.footer__bottom {
+  display:         flex;
+  justify-content: space-between;
+  align-items:     center;
+  padding-top:     var(--space-lg);
+  flex-wrap:       wrap;
+  gap:             var(--space-sm);
+}
+.footer__copyright {
+  font-family:    var(--font-body);
+  font-size:      var(--text-xs);
+  font-weight:    300;
+  color:          var(--color-text-light);
+  letter-spacing: 0.04em;
+}
+.footer__bottom-meta {
+  font-family:    var(--font-body);
+  font-size:      var(--text-xs);
+  font-weight:    300;
+  color:          var(--color-text-light);
+  letter-spacing: 0.04em;
+  display:        flex;
+  gap:            var(--space-md);
+}
+.footer__bottom-dot {
+  color: var(--color-accent);
+  opacity: 0.6;
+}
+
+/* Ornamento artístico decorativo de fondo en footer */
+.footer__bg-text {
+  position:     absolute;
+  bottom:       -0.15em;
+  right:        var(--space-xl);
+  font-family:  var(--font-display);
+  font-size:    clamp(5rem, 12vw, 14rem);
+  font-weight:  300;
+  color:        var(--color-text);
+  opacity:      0.025;
+  line-height:  1;
+  user-select:  none;
+  pointer-events: none;
+  white-space:  nowrap;
+}
+
+
+/* ============================================================
+   9. RESPONSIVE — MOBILE
+   ============================================================ */
+
+@media (max-width: 1024px) {
+  :root {
+    --space-2xl: 4rem;
+    --space-3xl: 5.5rem;
+  }
+
+  .footer__top {
+    grid-template-columns: 1fr 1fr;
+  }
+  .footer__quote {
+    grid-column: 1 / -1;
+    text-align:  left;
+    border-top:  1px solid var(--color-border-light);
+    padding-top: var(--space-lg);
+  }
+}
+
+@media (max-width: 768px) {
+  :root {
+    --navbar-h:  60px;
+    --space-xl:  2rem;
+    --space-2xl: 3rem;
+    --space-3xl: 4rem;
+  }
+
+  /* Navbar mobile */
+  .navbar__nav { display: none; }
+  .btn-menu    { display: flex; }
+
+  .navbar__inner { padding-inline: var(--space-lg); }
+
+  /* Hero mobile */
+  .hero__inner {
+    grid-template-columns: 1fr;
+    padding-inline: var(--space-lg);
+  }
+  .hero__meta-col      { display: none; }
+  .hero__catalog-number { display: none; }
+  .hero__content       { padding-bottom: var(--space-xl); }
+
+  .hero__title {
+    font-size: clamp(2.8rem, 12vw, 5rem);
+  }
+
+  /* Footer mobile */
+  .footer__top {
+    grid-template-columns: 1fr;
+    gap: var(--space-xl);
+  }
+  .footer__quote {
+    text-align: left;
+    border-top: 1px solid var(--color-border-light);
+    padding-top: var(--space-lg);
+  }
+  .footer__bottom {
+    flex-direction: column;
+    align-items:    center;
+    text-align:     center;
+  }
+  .footer__inner {
+    padding-inline: var(--space-lg);
+  }
+}
+
+@media (max-width: 480px) {
+  .hero__actions { flex-direction: column; }
+  .btn-primary,
+  .btn-ghost    { width: 100%; justify-content: center; }
+}
+
+
+/* ============================================================
+   10. REDUCCIÓN DE MOVIMIENTO (accesibilidad)
+   ============================================================ */
+
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration:   0.01ms !important;
+    transition-duration:  0.01ms !important;
+  }
+  .hero__scroll { display: none; }
+}

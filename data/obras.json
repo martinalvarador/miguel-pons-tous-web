@@ -1,0 +1,134 @@
+[
+  {
+    "id": "obra-01",
+    "titulo": "Bodegón con cerámica mallorquina",
+    "anio": 1962,
+    "tecnica": "Óleo sobre lienzo",
+    "categoria": "oleo",
+    "medidas": "65 × 81 cm",
+    "descripcion": "Una composición mediterránea de serena luminosidad. La cerámica local convive con frutas del huerto bajo la luz dorada de un atardecer de verano. El pincel construye una intimidad doméstica cargada de tiempo.",
+    "imagen": "https://picsum.photos/seed/mpt01/900/720",
+    "destacada": true
+  },
+  {
+    "id": "obra-02",
+    "titulo": "Paisaje de la Serra de Tramuntana",
+    "anio": 1968,
+    "tecnica": "Óleo sobre tabla",
+    "categoria": "oleo",
+    "medidas": "50 × 70 cm",
+    "descripcion": "Las montañas del norte de Mallorca captadas al amanecer. La paleta terrosa y los ocres cálidos revelan la mano de un artista profundamente enraizado en su tierra.",
+    "imagen": "https://picsum.photos/seed/mpt02/900/640",
+    "destacada": false
+  },
+  {
+    "id": "obra-03",
+    "titulo": "Figura femenina en reposo",
+    "anio": 1971,
+    "tecnica": "Carboncillo sobre papel",
+    "categoria": "dibujo",
+    "medidas": "45 × 60 cm",
+    "descripcion": "Trazo firme y económico. En pocas líneas Miguel Pons Tous captura la gracia de una figura que descansa, con una soltura que solo da el dibujo practicado cada día durante décadas.",
+    "imagen": "https://picsum.photos/seed/mpt03/720/900",
+    "destacada": false
+  },
+  {
+    "id": "obra-04",
+    "titulo": "Marina de Pollença",
+    "anio": 1975,
+    "tecnica": "Acuarela sobre papel de algodón",
+    "categoria": "acuarela",
+    "medidas": "38 × 56 cm",
+    "descripcion": "El Mediterráneo en su versión más íntima: la bahía en calma, los barcos de pesca, el agua que refleja el cielo. Una obra que huele a sal y a infancia.",
+    "imagen": "https://picsum.photos/seed/mpt04/900/620",
+    "destacada": true
+  },
+  {
+    "id": "obra-05",
+    "titulo": "Retrato de payés",
+    "anio": 1958,
+    "tecnica": "Óleo sobre lienzo",
+    "categoria": "oleo",
+    "medidas": "55 × 65 cm",
+    "descripcion": "Uno de los primeros grandes retratos. El rostro curtido del campesino mallorquín, sus manos sobre el regazo y la mirada directa al espectador: una declaración de respeto hacia el trabajo humano.",
+    "imagen": "https://picsum.photos/seed/mpt05/720/860",
+    "destacada": false
+  },
+  {
+    "id": "obra-06",
+    "titulo": "Las castañuelas",
+    "anio": 1980,
+    "tecnica": "Óleo sobre lienzo",
+    "categoria": "oleo",
+    "medidas": "80 × 100 cm",
+    "descripcion": "La obra más autobiográfica de la colección. Las manos del artista sosteniendo el instrumento que fue su otra voz. Rojo y negro sobre fondo neutro: pasión contenida.",
+    "imagen": "https://picsum.photos/seed/mpt06/900/760",
+    "destacada": true
+  },
+  {
+    "id": "obra-07",
+    "titulo": "Jardín con palmeras",
+    "anio": 1972,
+    "tecnica": "Acuarela sobre papel",
+    "categoria": "acuarela",
+    "medidas": "30 × 42 cm",
+    "descripcion": "El jardín como espacio de contemplación. Las palmeras filtran la luz del mediodía y proyectan sombras largas sobre la tierra roja. Obra de gran ligereza técnica.",
+    "imagen": "https://picsum.photos/seed/mpt07/850/600",
+    "destacada": false
+  },
+  {
+    "id": "obra-08",
+    "titulo": "Danza flamenca I",
+    "anio": 1985,
+    "tecnica": "Pastel sobre cartulina",
+    "categoria": "pastel",
+    "medidas": "60 × 80 cm",
+    "descripcion": "El movimiento congelado. La bailaora en el momento de máxima tensión, los brazos curvados hacia el cielo y el vestido girando como una llama. Colores encendidos, trazo urgente.",
+    "imagen": "https://picsum.photos/seed/mpt08/820/900",
+    "destacada": false
+  },
+  {
+    "id": "obra-09",
+    "titulo": "Estudio de manos",
+    "anio": 1960,
+    "tecnica": "Lápiz sobre papel",
+    "categoria": "dibujo",
+    "medidas": "24 × 32 cm",
+    "descripcion": "Las manos son el instrumento del artista: las pinta y las dibuja como quien firma su identidad. Esta hoja de estudio revela una disciplina académica impecable.",
+    "imagen": "https://picsum.photos/seed/mpt09/700/560",
+    "destacada": false
+  },
+  {
+    "id": "obra-10",
+    "titulo": "Puerto de Sóller",
+    "anio": 1969,
+    "tecnica": "Acuarela sobre papel Arches",
+    "categoria": "acuarela",
+    "medidas": "35 × 50 cm",
+    "descripcion": "La acuarela como canto al instante: el tranvía naranja junto al mar, los bares de pescadores, la montaña que protege el puerto. Mallorca en su esencia más auténtica.",
+    "imagen": "https://picsum.photos/seed/mpt10/900/650",
+    "destacada": false
+  },
+  {
+    "id": "obra-11",
+    "titulo": "Bodegón azul",
+    "anio": 1977,
+    "tecnica": "Óleo sobre lienzo",
+    "categoria": "oleo",
+    "medidas": "46 × 55 cm",
+    "descripcion": "Exploración del color frío dentro de la tradición del bodegón mediterráneo. Jarras de loza azul, tela blanca y una sola granada abierta: simplicidad que se vuelve profunda.",
+    "imagen": "https://picsum.photos/seed/mpt11/820/780",
+    "destacada": false
+  },
+  {
+    "id": "obra-12",
+    "titulo": "Atardecer en la bahía de Palma",
+    "anio": 1990,
+    "tecnica": "Acuarela y gouache",
+    "categoria": "acuarela",
+    "medidas": "40 × 60 cm",
+    "descripcion": "Una de las últimas grandes acuarelas. El cielo incendiado sobre la bahía, la catedral silueteada en el horizonte. El final del día como metáfora de una vida bien vivida.",
+    "imagen": "https://picsum.photos/seed/mpt12/900/600",
+    "destacada": true
+  }
+]
