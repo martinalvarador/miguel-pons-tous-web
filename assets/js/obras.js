@@ -264,6 +264,12 @@ const GalleryLoader = (() => {
       }
 
       render(data);
+      
+      const error = $(OBRAS_CONFIG.errorEl);
+
+      if (error) {
+        error.hidden = true;
+      }
 
       // Después de renderizar: inicializar filtros y reveal
       FilterManager.init(data);

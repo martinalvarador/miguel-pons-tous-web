@@ -1082,3 +1082,7 @@
     transition: none;
   }
 }
+/* Respeta correctamente elementos ocultos */
+[hidden] {
+  display: none !important;
+}
