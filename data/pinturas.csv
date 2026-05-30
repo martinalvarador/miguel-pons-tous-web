@@ -1,0 +1,407 @@
+﻿ID PINTURA;CÓDIGO;ARTISTA;TÍTULO;SERIE;PRECIO;DISPONIBLE;AÑO;TÉCNICA;DIMENSIONES;LOCALIZACION / UBICACIÓN;ENMARCADO;AUTENTICADO;DESCRIPCIÓN / OBSERVACIONES;FOTO
+1;1;Miguel Pons Tous;Zurbaraneso;;0;VERDADERO;1987;Óleo en cartón entelado;30,5 x 61;;VERDADERO;VERDADERO;;1
+2;2;Miguel Pons Tous;Peras en la Playa;;0;VERDADERO;1998;Óleo sobre lienzo;20 x 40;;VERDADERO;VERDADERO;;1
+3;3;Miguel Pons Tous;Soledad;;0;VERDADERO;1998;Óleo sobre madera entelada;27 x 35;;VERDADERO;VERDADERO;;1
+4;4;Miguel Pons Tous;Claveles;;0;VERDADERO;1999;Óleo sobre lienzo;50 x 35;;VERDADERO;VERDADERO;;1
+5;5;Miguel Pons Tous;Alelies;;0;VERDADERO;1980;Óleo en Cartón Entelado;40 x 50;;VERDADERO;VERDADERO;;1
+6;6;Miguel Pons Tous;Cardos;;0;VERDADERO;2008;Óleo en Bastidor;40 x 50;;VERDADERO;VERDADERO;;1
+7;7;Miguel Pons Tous;Gerberas;;0;VERDADERO;1994;Óleo en Bastidor;40 x 50;;VERDADERO;VERDADERO;;1
+8;8;Miguel Pons Tous;Peras;;0;VERDADERO;1999;Óleo en Bastidor;24 x 30;;VERDADERO;VERDADERO;;1
+9;9;Miguel Pons Tous;Maíz;;0;VERDADERO;2007;Óleo en Bastidor;30 x 40;;VERDADERO;VERDADERO;;1
+10;10;Miguel Pons Tous;Cajón y muñeca;;0;VERDADERO;1990;Óleo en cartón entelado;50 x 60;;VERDADERO;VERDADERO;;1
+11;11;Miguel Pons Tous;Capilla del Monte - Amanecer;;0;VERDADERO;1982;Óleo en chapadur;40 x 50;;VERDADERO;VERDADERO;;1
+12;12;Miguel Pons Tous;Paisaje camino;;0;VERDADERO;1980;Óleo en chapadur;40 x 50;;VERDADERO;VERDADERO;;1
+13;13;Miguel Pons Tous;Serrezuela;;0;VERDADERO;1986;Óleo en cartón entelado;40 x 50;;VERDADERO;VERDADERO;;1
+14;14;Miguel Pons Tous;La Boca;;0;FALSO;0;;;Galería Marcchiaro;VERDADERO;FALSO;;1
+15;15;Miguel Pons Tous;Bajo Grande - Córdoba;;0;VERDADERO;2004;Óleo en Cartón Entelado;30 x 40;;VERDADERO;VERDADERO;;1
+16;16;Miguel Pons Tous;De la Córdoba Antigüa;;0;FALSO;2004;Óleo en Bastidor;40 x 40;;VERDADERO;VERDADERO;;1
+17;17;Miguel Pons Tous;Pasando Guiñazú;;0;VERDADERO;2004;Óleo en Bastidor;30 x 60;;VERDADERO;VERDADERO;;1
+18;18;Miguel Pons Tous;Capilla de Villa de Soto;;0;VERDADERO;2007;Óleo en Bastidor;40 x 60;;VERDADERO;VERDADERO;;1
+19;19;Miguel Pons Tous;Fin del invierno en Calera;;0;VERDADERO;1982;Óleo en Chapadur;50 x 60;;VERDADERO;VERDADERO;;1
+20;20;Miguel Pons Tous;Cobre y bronce;;0;FALSO;1981;Óleo en Chapadur;50 x 60;;VERDADERO;VERDADERO;;1
+21;21;Miguel Pons Tous;Junto al camino;;0;VERDADERO;2003;Óleo en Bastidor;40 x 60;;VERDADERO;VERDADERO;;1
+22;22;Miguel Pons Tous;Flores de Pascua;;0;VERDADERO;1976;Óleo en Cartón Entelado;27 x 35;;VERDADERO;VERDADERO;;1
+23;23;Miguel Pons Tous;Campo de Capilla del Monte;;0;VERDADERO;2007;Óleo en Fibrofacil;24 x 30;;VERDADERO;VERDADERO;;1
+24;24;Miguel Pons Tous;Interior de Capilla de Candonga;;0;VERDADERO;1986;Óleo en Cartón Entelado;30 x 40;;VERDADERO;VERDADERO;;1
+25;25;Miguel Pons Tous;Cañada;;0;VERDADERO;1997;Óleo en Bastidor;40 x 40;;VERDADERO;VERDADERO;;1
+26;26;Miguel Pons Tous;Uvas rosadas;;0;VERDADERO;1996;Acrílico en Bastidor;35 x 45;;VERDADERO;VERDADERO;;1
+27;27;Miguel Pons Tous;Pan y Jarra;;0;VERDADERO;1983;Óleo en Bastidor;40 x 50;;VERDADERO;VERDADERO;;1
+28;28;Miguel Pons Tous;Sauces;;0;VERDADERO;2001;Acrílico en Bastidor;40 x 40;;VERDADERO;VERDADERO;;1
+29;29;Miguel Pons Tous;Alcauciles;;0;VERDADERO;2007;Óleo en cartón entelado;27 x 35;;VERDADERO;VERDADERO;;1
+30;30;Miguel Pons Tous;Amapolillas;;0;VERDADERO;1984;Óleo en cartón entelado;40 x 50;;VERDADERO;FALSO;;1
+31;31;Miguel Pons Tous;Paisaje con naturaleza muerta;;0;VERDADERO;1994;Óleo en bastidor;70 x 80;;VERDADERO;VERDADERO;;1
+32;32;Miguel Pons Tous;Iglesia de San Isidro;;0;VERDADERO;2000;Acrílico en bastidor;60 x 80;;VERDADERO;VERDADERO;;1
+33;33;Miguel Pons Tous;Capilla de Dolores;;0;VERDADERO;2007;Óleo en Bastidor;60 x 50;;VERDADERO;VERDADERO;;1
+34;34;Miguel Pons Tous;Capilla de San Antonio - Valle Hermoso;;0;VERDADERO;1980;Óleo en Chapadur;50 x 60;;VERDADERO;FALSO;;1
+35;35;Miguel Pons Tous;Después de la lluvia;;0;VERDADERO;1985;Óleo en Bastidor;40 x 60;;VERDADERO;VERDADERO;;1
+36;36;Miguel Pons Tous;Frutos del mar;;0;VERDADERO;1997;Óleo en bastidor;50 x 70;;VERDADERO;VERDADERO;;1
+37;37;Miguel Pons Tous;Peras y Jarra;;0;VERDADERO;2008;Óleo en bastidor;40 x 50;;VERDADERO;VERDADERO;;1
+38;38;Miguel Pons Tous;Anémonas;;0;VERDADERO;1980;Óleo en carton entelado;35 x 45;;FALSO;FALSO;;1
+39;39;Miguel Pons Tous;Cajón del río - Capilla del Monte;;0;VERDADERO;1976;Óleo en cartón entelado;30 x 40;;FALSO;FALSO;El cuadro con el que regresó a la pintura artística.;1
+40;40;Miguel Pons Tous;Postales - Trompe L'oeil;;0;VERDADERO;1983;Óleo en chapadur;40 x 50;;FALSO;VERDADERO;;1
+41;41;Miguel Pons Tous;Castañuelas - Trompe L'oeil;;0;VERDADERO;1983;Óleo en cartón entelado;30 x 40;;FALSO;VERDADERO;;1
+42;42;Miguel Pons Tous;Calas y encaje;;0;VERDADERO;1999;Óleo en bastidor;90 x 70;;VERDADERO;VERDADERO;;1
+43;43;Miguel Pons Tous;Pecarí;;0;FALSO;1986;Óleo en bastidor;90 x 110;;VERDADERO;FALSO;;1
+44;44;Miguel Pons Tous;Palacio de Almudaina - Mallorca;;0;VERDADERO;1996;Óleo en bastidor;40 x 60;;VERDADERO;FALSO;;1
+45;45;Miguel Pons Tous;Florero Mallorquin;;0;VERDADERO;1997;Óleo en bastidor;40 x 40;;VERDADERO;FALSO;;1
+46;46;Miguel Pons Tous;Mañana invernal;;0;VERDADERO;1998;Óleo en cartón entelado;24 x 30;;VERDADERO;VERDADERO;;1
+47;47;Miguel Pons Tous;Canasta con peras;;0;VERDADERO;1996;Acrílico en chapadur;22 x 32;;VERDADERO;FALSO;;1
+48;48;Miguel Pons Tous;Partido de truco;;0;VERDADERO;2006;Óleo en cartón entelado;20 x 20;;VERDADERO;FALSO;;1
+49;49;Miguel Pons Tous;Rosas de nuestro jardín;;0;VERDADERO;1982;Óleo en chapadur;32 x 35;;VERDADERO;FALSO;;1
+50;50;Miguel Pons Tous;Cesta con limones;;0;VERDADERO;2007;Óleo en bastidor;45 x 35;;VERDADERO;VERDADERO;;1
+51;51;Miguel Pons Tous;Variedad de flores (Naif);;0;VERDADERO;1996;Óleo en cartón entelado;35 x 45;;VERDADERO;FALSO;;1
+52;52;Miguel Pons Tous;Cosmos amarillos;;0;VERDADERO;1994;Óleo en bastidor;45 x 55;;VERDADERO;FALSO;;1
+53;53;Miguel Pons Tous;Rancho;;0;VERDADERO;2008;Óleo en Bastidor;35 x50;;FALSO;FALSO;;1
+54;54;Miguel Pons Tous;Leñador;;0;VERDADERO;1996;Óleo en bastidor;27 x 35;;VERDADERO;FALSO;;1
+55;55;Miguel Pons Tous;Rancho de Doña Carmen Torres - Santa Catalina;;0;VERDADERO;1983;Óleo en Bastidor;60 x 90;;VERDADERO;VERDADERO;;1
+56;56;Miguel Pons Tous;Jarras de metal;;0;VERDADERO;2005;Óleo en bastidor;40 x 70;;VERDADERO;FALSO;;1
+57;57;Miguel Pons Tous;El alfiletero;;0;VERDADERO;1994;Óleo en cartón entelado;40 x 50;;VERDADERO;VERDADERO;;1
+58;58;Miguel Pons Tous;Caminito - La Boca;;0;FALSO;1998;Óleo en cartón entelado;27 x 35;;VERDADERO;VERDADERO;;1
+59;59;Miguel Pons Tous;Naranjas;;0;VERDADERO;1998;Óleo en bastidor;30 x 50;;VERDADERO;VERDADERO;;1
+60;60;Miguel Pons Tous;Camino en España;;0;VERDADERO;1948;Óleo en terceado;15 x 21;;VERDADERO;FALSO;;1
+61;61;Miguel Pons Tous;Gerberas y cobre;;0;VERDADERO;2009;Óleo en cartón entelado;40 x 50;;FALSO;FALSO;;1
+62;62;Miguel Pons Tous;Cas Catalá - Palma de Mallorca;;0;VERDADERO;1949;Óleo en terceado;21 x 28;;VERDADERO;VERDADERO;;1
+63;63;Miguel Pons Tous;Villa Belgrano - Córdoba;;0;VERDADERO;1980;Óleo en chapadur;17,5 x 23,5;;VERDADERO;FALSO;;1
+64;64;Miguel Pons Tous;Retrato de niño;;0;VERDADERO;1981;Óleo en cartón entelado;24 x 30;;VERDADERO;FALSO;;1
+65;65;Miguel Pons Tous;Torrente de Pareys - Mallorca - España;;0;VERDADERO;1997;Óleo en cartón entelado;18 x 24;;VERDADERO;VERDADERO;;1
+66;66;Miguel Pons Tous;Aljibe;;0;VERDADERO;1997;Acuarela;14 x 25;;VERDADERO;VERDADERO;;1
+67;67;Miguel Pons Tous;Río Suquia;;0;VERDADERO;1996;Acuarela;21 x 32;;VERDADERO;VERDADERO;;1
+68;68;Miguel Pons Tous;Málaga - España;;0;VERDADERO;1996;Óleo en cartón entelado;18 x 24;;VERDADERO;FALSO;;1
+69;69;Miguel Pons Tous;Castillo de Bellver desde mi casa - Palma de Mallorca - España;;0;VERDADERO;1986;óleo en cartón Entelado;18 x 24;;VERDADERO;VERDADERO;;1
+70;70;Miguel Pons Tous;Maíz (2);;0;VERDADERO;1995;Óleo en cartón entelado;30 x 24;;VERDADERO;VERDADERO;;1
+71;71;Miguel Pons Tous;Camino de los sueños;;0;VERDADERO;1997;Óleo en bastidor;21 x 30;;VERDADERO;FALSO;;1
+72;72;Miguel Pons Tous;Tarjeta de Navidad;;0;VERDADERO;1997;Óleo en chapadur;30 x 45;;FALSO;FALSO;;1
+73;73;Miguel Pons Tous;Pan y trigo;;0;VERDADERO;1981;Óleo en chapadur;30 x 40;;FALSO;VERDADERO;;1
+74;74;Miguel Pons Tous;Cerámica y manzanas;;0;VERDADERO;1979;Óleo en chapadur;30 x 40;;FALSO;FALSO;;1
+75;75;Miguel Pons Tous;Rosas;;0;VERDADERO;1979;Óleo en chapadur;33 x 35,5;;FALSO;FALSO;;1
+76;76;Miguel Pons Tous;Florero de rosas;;0;VERDADERO;1977;Óleo en chapadur;26 x 36;;FALSO;FALSO;;1
+77;77;Miguel Pons Tous;Conchas de mar;;0;VERDADERO;1986;Óleo en cartón entelado;27 x 35;;FALSO;FALSO;;1
+78;78;Miguel Pons Tous;Flores en jarro;;0;VERDADERO;1980;Óleo en cartón entelado;27 x 35;;FALSO;FALSO;;1
+79;79;Miguel Pons Tous;Puerto del buceo - Montevideo;;0;VERDADERO;1986;Óleo en cartón entelado;24 x 30;;FALSO;FALSO;;1
+80;80;Miguel Pons Tous;Otoño en el río;;0;VERDADERO;1976;Óleo en chapadur;24 x 30;;FALSO;FALSO;;1
+81;81;Miguel Pons Tous;Árbol serrano;;0;VERDADERO;1983;Acuarela;20 x 30;;VERDADERO;FALSO;;1
+82;82;Miguel Pons Tous;Arboleda junto al lago;;0;VERDADERO;1955;Óleo en bastidor;30 x 40;;FALSO;FALSO;;1
+83;83;Miguel Pons Tous;Vieja pared - Santa Catalina;;0;VERDADERO;2001;Óleo en bastidor;40 x 50;;FALSO;FALSO;No sabemos donde esta? Se lo llevo Marquiaro?;1
+84;84;Miguel Pons Tous;Palmeras - Capilla del Monte;;0;VERDADERO;1980;Óleo en cartón entelado;40 x 50;;FALSO;FALSO;;1
+85;85;Miguel Pons Tous;Sierra del Pajarillo - Capilla del Monte;;0;VERDADERO;1981;Óleo en chapadur;40 x 50;;FALSO;FALSO;;1
+86;86;Miguel Pons Tous;Rancho de Doña Carmen Torres (2) - Santa Catalina;;0;VERDADERO;1981;Óleo en cartón entelado;40 x 50;;FALSO;FALSO;;1
+87;87;Miguel Pons Tous;Mallorca - España;;0;VERDADERO;1979;óleo en cartón entelado;40 x 50;;FALSO;FALSO;;1
+88;88;Miguel Pons Tous;Sauce - El Cajón - Capilla del Monte;;0;VERDADERO;1984;Óleo en chapadur;40 x 50;;FALSO;FALSO;;1
+89;89;Miguel Pons Tous;El Cajón - Capilla del Monte;;0;VERDADERO;1981;Óleo en chapadur;40 x 50;;FALSO;FALSO;;1
+90;90;Miguel Pons Tous;Las Gemelas - Capilla del Monte;;0;VERDADERO;1981;Óleo en carton entelado;40 x 50;;FALSO;FALSO;;1
+91;91;Miguel Pons Tous;San Esteban - Córdoba;;0;VERDADERO;1984;Óleo en chapadur;40 x 50;;FALSO;FALSO;;1
+92;92;Miguel Pons Tous;Cosmos Violetas;;0;VERDADERO;1977;Óleo en cartón entelado;27 x 35;;VERDADERO;FALSO;;1
+93;93;Miguel Pons Tous;Puente Centenario;;0;VERDADERO;2005;Acrílico en cartón entelado;28 x 34;;VERDADERO;VERDADERO;;1
+94;94;Miguel Pons Tous;Paisaje Serrano;;0;VERDADERO;1974;Óleo en cartón entelado;30 x 40;;VERDADERO;FALSO;;1
+95;95;Miguel Pons Tous;Geraneo Rosa;;0;VERDADERO;1995;Acuarela;15 x 31;;VERDADERO;FALSO;;1
+96;96;Miguel Pons Tous;Estalagmitas;;0;VERDADERO;1980;Óleo en cartón entelado;18 x 24;;VERDADERO;FALSO;Marco en mal estado;1
+97;97;Miguel Pons Tous;Chapas;;0;VERDADERO;1996;Acuarela;20 x 35;;VERDADERO;VERDADERO;;1
+98;98;Miguel Pons Tous;Manzanas y Pera;;0;VERDADERO;1998;Óleo en bastidor;24 x 30;;VERDADERO;VERDADERO;;1
+99;99;Miguel Pons Tous;Paso a nivel;;0;VERDADERO;1998;Óleo y acrílico en carton entelado;24 x 30;;VERDADERO;VERDADERO;;1
+100;100;Miguel Pons Tous;Manzanas;;0;VERDADERO;1988;Óleo en cartón entelado;24 x 30;;VERDADERO;VERDADERO;;1
+101;101;Miguel Pons Tous;Ventana de Santa Catalina;;0;VERDADERO;1981;Óleo en cartón entelado;24 x 30;;VERDADERO;VERDADERO;;1
+102;102;Miguel Pons Tous;Vaso de rosas;;0;VERDADERO;2009;Bastidor;34 x 44;;FALSO;FALSO;;1
+103;103;Miguel Pons Tous;Cebollas y bronce;;0;VERDADERO;2009;Óleo en fibrofacil entelado;30 x 40;;FALSO;FALSO;;1
+104;104;Miguel Pons Tous;Flores Rojas;;0;VERDADERO;2010;Óleo en cartón entelado;30 x 40;;FALSO;FALSO;;1
+105;105;Miguel Pons Tous;Santa Catalina;;0;VERDADERO;1984;Chapadur;35 x 50;;VERDADERO;FALSO;;1
+106;106;Miguel Pons Tous;Crisantemos;;0;VERDADERO;0;;;;FALSO;FALSO;;1
+107;107;Miguel Pons Tous;Lejanía;;0;VERDADERO;2005;Acrílico en bastidor;40 x 60;;VERDADERO;FALSO;;1
+108;108;Miguel Pons Tous;Retrato Mary;;0;FALSO;0;Óleo en bastidor;50 x 70;;FALSO;FALSO;;1
+109;109;Miguel Pons Tous;Desde el mirador - Colonia de FACE - Capilla del Monte;;0;VERDADERO;1977;Óleo en cartón entelado;40 x 50;;FALSO;FALSO;;1
+110;110;Miguel Pons Tous;Huerta de FACE - Capilla del Monte;;0;VERDADERO;1979;Óleo en cartón entelado;40 x 50;;FALSO;FALSO;;1
+111;111;Miguel Pons Tous;Dibujo boceteado;;0;VERDADERO;0;Óleo en cartón;50 x 60;;FALSO;FALSO;;1
+112;112;Miguel Pons Tous;Tarde de Tormenta - Capilla del Monte;;0;VERDADERO;1979;Óleo en chapadur;50 x 60;;FALSO;FALSO;;1
+113;113;Miguel Pons Tous;Calera;;0;VERDADERO;1981;Óleo en chapadur;50 x 60;;FALSO;FALSO;;1
+114;114;Miguel Pons Tous;Camino a Río Ceballos;;0;VERDADERO;1981;Óleo en chapadur;50 x 60;;FALSO;FALSO;;1
+115;115;Miguel Pons Tous;Lago San Roque - Bialet Masse;;0;VERDADERO;0;Óleo en chapadur;50 x 60;;FALSO;FALSO;;1
+116;116;Miguel Pons Tous;Dumesnil;;0;VERDADERO;0;Óleo en cartón;50 x 60;;FALSO;FALSO;;1
+117;117;Miguel Pons Tous;Dumesnil - 2;;0;VERDADERO;1981;Óleo en chapadur;50 x 60;;FALSO;FALSO;;1
+118;118;Miguel Pons Tous;Girasoles y cardos;;0;VERDADERO;1979;Óleo en bastidor;50 x 60;;FALSO;FALSO;;1
+119;119;Miguel Pons Tous;Camino a Pajas Blancas;;0;VERDADERO;1983;Óleo en bastidor;40 x 60;;FALSO;FALSO;;1
+120;120;Miguel Pons Tous;Las Gemelas Nº 2 - Capilla del Monte;;0;VERDADERO;1980;Óleo en bastidor;50 x 70;;FALSO;FALSO;;1
+121;121;Miguel Pons Tous;Cajón del Río por la tarde - Capilla del Monte;;0;VERDADERO;1981;Óleo en cartón;50 x 60;;FALSO;FALSO;;1
+122;122;Miguel Pons Tous;Oratorio Los Tres Puentes - Capilla del Monte;;0;VERDADERO;1979;Óleo en cartón;50 x 60;;FALSO;FALSO;;1
+123;123;Miguel Pons Tous;Navidad en Patquia - La Rioja;;0;VERDADERO;1984;Óleo en chapadur;40 x 60;;FALSO;FALSO;;1
+124;124;Miguel Pons Tous;Rosas y metales;;0;VERDADERO;1979;Óleo en bastidor;50 x 60;;FALSO;FALSO;;1
+125;125;Miguel Pons Tous;Lirios;;0;VERDADERO;1997;Acuarela;40 x 60;;VERDADERO;FALSO;;1
+126;126;Miguel Pons Tous;Amapolas de Islandia;;0;VERDADERO;1997;Acuarela;40 x 30;;VERDADERO;FALSO;;1
+127;127;Miguel Pons Tous;Que atrevido;;0;VERDADERO;1991;Óleo en cartón entelado;35 x 45;;VERDADERO;VERDADERO;;1
+128;128;Miguel Pons Tous;Caserío y Eucaliptus;;0;VERDADERO;1995;Acuarela;20 x 28;;VERDADERO;FALSO;;1
+129;129;Miguel Pons Tous;Llegando a Santa Catalina;;0;VERDADERO;1984;Óleo en cartón entelado;35 x 50;;VERDADERO;FALSO;;1
+130;130;Miguel Pons Tous;Retrato de Eumelia Bravo;;0;VERDADERO;1981;Óleo en chapadur;50 x 60;;FALSO;FALSO;;1
+131;131;Miguel Pons Tous;Tanque de agua de barrio Corema (Naif);;0;VERDADERO;1997;Óleo en cartón entelado;28 x 35;;VERDADERO;FALSO;;1
+132;132;Miguel Pons Tous;Amanecer desde el mirador de FACE - Capilla del Monte;;0;VERDADERO;1979;Óleo en cartón;50 x 60;;FALSO;FALSO;;1
+133;133;Miguel Pons Tous;Barrio de Capilla del Monte;;0;VERDADERO;1979;Óleo en cartón;50 x 60;;FALSO;FALSO;;1
+134;134;Miguel Pons Tous;Ranchos - Capilla del Monte;Capilla del Monte;0;VERDADERO;1979;Óleo en cartón;50 x 60;;FALSO;FALSO;;1
+135;135;Miguel Pons Tous;Acueducto de Saldán;;0;VERDADERO;1979;Óleo en chapadur;50 x 60;;FALSO;FALSO;;1
+136;136;Miguel Pons Tous;Camino a La Calera;;0;VERDADERO;1980;Óleo en chapadur;50 x 60;;FALSO;FALSO;;1
+137;137;Miguel Pons Tous;Alrededores de La Calera;;0;VERDADERO;1979;Óleo en chapadur;50 x 60;;FALSO;FALSO;;1
+138;138;Miguel Pons Tous;Campo - Córdoba;;0;VERDADERO;1980;Óleo en chapadur;50 x 60;;FALSO;FALSO;;1
+139;139;Miguel Pons Tous;Retrato de Sergio - Capilla del Monte;Capilla del Monte;0;VERDADERO;1979;Óleo en chapadur;50 x 60;;FALSO;FALSO;;1
+140;140;Miguel Pons Tous;Paisaje Serrano;;0;VERDADERO;1997;Acuarela;30 x 40;;VERDADERO;FALSO;;1
+141;141;Miguel Pons Tous;Jardín de mi casa;;0;FALSO;1976;Óleo en cartón;17 x 25,5;;FALSO;FALSO;;1
+142;142;Miguel Pons Tous;Rocas frente a La Monica - Capilla del Monte;Capilla del Monte;0;FALSO;1976;Óleo en cartón;16,5 x 25;;FALSO;FALSO;;1
+143;143;Miguel Pons Tous;Otoño en Saldán;;0;VERDADERO;1977;Óleo en cartón;17 x 25;;FALSO;FALSO;;1
+144;144;Miguel Pons Tous;Ranchos de Córdoba;;0;VERDADERO;1997;Óleo en cartón;16 x 29;;FALSO;FALSO;;1
+145;145;Miguel Pons Tous;Verano - Saldán;;0;VERDADERO;1976;Óleo en cartón;17 x 25;;FALSO;FALSO;;1
+146;146;Miguel Pons Tous;Granadas;;0;VERDADERO;2002;Óleo en chapadur;20 x 28;;FALSO;FALSO;;1
+147;147;Miguel Pons Tous;Desnuda;;0;VERDADERO;1984;Óleo en cartón entelado;24 x 30;;FALSO;FALSO;;1
+148;148;Miguel Pons Tous;Casa de Don Jose - Capilla del Monte;Capilla del Monte;0;VERDADERO;1977;Óleo en cartón entelado;24 x 30;;FALSO;FALSO;;1
+149;149;Miguel Pons Tous;Terrazas;;0;VERDADERO;2009;Óleo en fibrofacil entelado;24 x 30;;FALSO;FALSO;;1
+150;150;Miguel Pons Tous;Vieja esquina - Villa Allende;;0;VERDADERO;2006;Óleo en chapadur;24 x 30;;FALSO;FALSO;;1
+151;151;Miguel Pons Tous;Casa y árboles - Dumesnil;;0;VERDADERO;1999;Óleo en cartón entelado;24 x 30;;FALSO;FALSO;;1
+152;152;Miguel Pons Tous;Claro del Río;;0;VERDADERO;0;Óleo en cartón entelado;24 x 30;;FALSO;FALSO;sin año / sin firma;1
+153;153;Miguel Pons Tous;Rosas 2;;0;VERDADERO;1976;Óleo en cartón entelado;24 x 30;;FALSO;FALSO;;1
+154;154;Miguel Pons Tous;Dolores - Córdoba;;0;VERDADERO;1984;Óleo en cartón entelado;27 x 35;;FALSO;FALSO;;1
+155;155;Miguel Pons Tous;Matadero - Capilla del Monte;Capilla del Monte;0;VERDADERO;1977;Óleo en cartón entelado;27 x 35;;FALSO;FALSO;;1
+156;156;Miguel Pons Tous;Maceta de rojizas;;0;VERDADERO;2009;Óleo en fibrofacil;24 x 30;;FALSO;FALSO;;1
+157;157;Miguel Pons Tous;Al lado del río - Capilla del Monte;Capilla del Monte;0;VERDADERO;1977;Óleo en cartón entelado;24 x 30;;FALSO;FALSO;;1
+158;158;Miguel Pons Tous;Rosas 3;;0;VERDADERO;1980;Óleo en chapadur;24 x 30;;FALSO;FALSO;;1
+159;159;Miguel Pons Tous;Rosas 4;;0;VERDADERO;1976;Óleo en cartón entelado;24 x 30;;FALSO;FALSO;con mancha;1
+160;160;Miguel Pons Tous;Florero;;0;VERDADERO;1976;Óleo en cartón entelado;24 x 30;;FALSO;FALSO;;1
+161;161;Miguel Pons Tous;Río Suquia - Barrio Providencia;;0;VERDADERO;1976;Óleo en chapadur;24 x 30;;FALSO;FALSO;;1
+162;162;Miguel Pons Tous;Rosas 5;;0;VERDADERO;1976;Óleo en cartón entelado;24 x 30;;FALSO;FALSO;;1
+163;163;Miguel Pons Tous;Rio Calabalumba cerca del FACE - Capilla del Monte;Capilla del Monte;0;VERDADERO;1976;Óleo en Cartón entelado;25,5 x 33,5;;FALSO;FALSO;;1
+164;164;Miguel Pons Tous;Casa de los Guzman - Charborier - Córdoba;;0;VERDADERO;1981;Óleo en cartón entelado;27 x 35;;FALSO;FALSO;;1
+165;165;Miguel Pons Tous;Contraluz - Camino a Pajas Blancas;;0;VERDADERO;1988;Óleo en cartón entelado;27 x 35;;FALSO;FALSO;;1
+166;166;Miguel Pons Tous;Torre de Iglesia;;0;VERDADERO;2009;Óleo en fibrofacil entelado;27 x 35;;FALSO;FALSO;;1
+167;167;Miguel Pons Tous;Algarrobo - Águila Blanca - Capilla del Monte;Capilla del Monte;0;VERDADERO;1976;Óleo en cartón (con espátula);28 x 30;;FALSO;FALSO;;1
+168;168;Miguel Pons Tous;Limones sobre mantel;;0;VERDADERO;1986;Óleo en cartón entelado;30 x 40;;FALSO;FALSO;;1
+169;169;Miguel Pons Tous;Cristo;;0;VERDADERO;1970;Óleo sobre chapadur (con espátula);24 x 30;;FALSO;FALSO;;1
+170;170;Miguel Pons Tous;Cerca del río - La Calera;;0;VERDADERO;1982;Óleo en cartón entelado;27 x 35;;FALSO;FALSO;;1
+171;171;Miguel Pons Tous;Casa Hongo (Naif);;0;VERDADERO;1998;Óleo en cartón entelado;27 x 35;;FALSO;FALSO;;1
+172;172;Miguel Pons Tous;Duraznos y peras;;0;VERDADERO;1998;Óleo en cartón entelado;24 x 30;;FALSO;FALSO;;1
+173;173;Miguel Pons Tous;Manzanas en el aire;;0;VERDADERO;2000;Óleo en cartón entelado;24 x 30;;FALSO;FALSO;;1
+174;174;Miguel Pons Tous;Florero (Naif);;0;VERDADERO;1995;Óleo en cartón entelado;27 x 35;;FALSO;FALSO;;1
+175;175;Miguel Pons Tous;Sergio - Capilla del Monte;Capilla del Monte;0;VERDADERO;1977;Óleo en cartón entelado;27 x 35;;FALSO;FALSO;;1
+176;176;Miguel Pons Tous;La higuera - Casa de Don José - Capilla del Monte;Capilla del Monte;0;VERDADERO;1977;Óleo en cartón ntelado;27 x 35;;FALSO;FALSO;;1
+177;177;Miguel Pons Tous;El Cajón Nº 2 - Capilla del Monte;Capilla del Monte;0;VERDADERO;1981;Óleo en chapadur;30 x 40;;FALSO;FALSO;;1
+178;178;Miguel Pons Tous;Canasta con cebollas;;0;VERDADERO;2006;Óleo en chapadur;30 x 40;;FALSO;FALSO;;1
+179;179;Miguel Pons Tous;Margaritas;;0;VERDADERO;1979;Óleo en cartón entelado;30 x 40;;FALSO;FALSO;;1
+180;180;Miguel Pons Tous;Río Suquia - Villa Belgrano - Córdoba;;0;VERDADERO;1977;Óleo sobre cartón entelado;30 x 40;;FALSO;FALSO;;1
+181;181;Miguel Pons Tous;Corral de cabras - Dumesnil - Córdoba;;0;VERDADERO;1983;Óleo en cartón entelado;30 x 40;;FALSO;FALSO;;1
+182;182;Miguel Pons Tous;Camino Pajas Blancas;;0;VERDADERO;1982;Óleo en chapadur;30 x 40;;FALSO;FALSO;;1
+183;183;Miguel Pons Tous;Río Suquia 2 - Villa Belgrano - Córdoba;;0;VERDADERO;1977;Óleo en cartón entelado;30 x 40;;FALSO;FALSO;;1
+184;184;Miguel Pons Tous;Manzanas y Jarra;;0;VERDADERO;1999;Óleo en chapadur;30 x 40;;FALSO;VERDADERO;;1
+185;185;Miguel Pons Tous;Ramada - Santiago del Estero;;0;VERDADERO;1991;Óleo en cartón entelado;27 x 35;;FALSO;VERDADERO;;1
+186;186;Miguel Pons Tous;Capilla de Dolores - Córdoba;;0;FALSO;1977;Óleo en cartón entelado;30 x 40;;FALSO;FALSO;;1
+187;187;Miguel Pons Tous;Córdoba desde la calle Colón;;0;VERDADERO;1979;Óleo en chapadur;30 x 40;;FALSO;FALSO;;1
+188;188;Miguel Pons Tous;Santa Catalina;;0;VERDADERO;1981;Óleo en chapadur;30 x 40;;FALSO;FALSO;;1
+189;189;Miguel Pons Tous;Amapolas de Islandia 2;;0;VERDADERO;1991;Óleo en cartón entelado;27 x 35;;FALSO;VERDADERO;;1
+190;190;Miguel Pons Tous;Brocolis;;0;VERDADERO;1998;Óleo en bastidor;30 x 40;;FALSO;FALSO;;1
+191;191;Miguel Pons Tous;Ostras y langostinos;;0;VERDADERO;1994;Óleo en bastidor;30 x 40;;FALSO;FALSO;;1
+192;192;Miguel Pons Tous;Rosas 6;;0;VERDADERO;1995;Óleo en cartón entelado;30 x 40;;FALSO;FALSO;;1
+193;193;Miguel Pons Tous;Ranchito - Camino a San Antonio;;0;VERDADERO;1982;Óleo en cartón entelado;30 x 40;;FALSO;FALSO;;1
+194;194;Miguel Pons Tous;Illetas - Palma de Mallorca;;0;VERDADERO;1950;Óleo en cartón entelado;14 x18;;FALSO;FALSO;;1
+195;195;Miguel Pons Tous;Caverna de Estalagmitas;;0;VERDADERO;1987;Óleo en cartón entelado;13 x 18;;FALSO;FALSO;;1
+196;196;Miguel Pons Tous;Jarrito de Rosas;;0;VERDADERO;1977;Óleo en cartón;13 x 18;;FALSO;FALSO;;1
+197;197;Miguel Pons Tous;Perfil Jesús;;0;VERDADERO;1984;Óleo en cartón entelado;18 x 24;;FALSO;FALSO;;1
+198;198;Miguel Pons Tous;Pan y Ajo;;0;VERDADERO;1982;Óleo en chapadur;14 x 21;;FALSO;FALSO;;1
+199;199;Miguel Pons Tous;Árboles - Mallorca;;0;VERDADERO;1955;Óleo en cartón entelado;13 x 18;;FALSO;FALSO;;1
+200;200;Miguel Pons Tous;Casas en chapa;;0;VERDADERO;2007;Óleo en fibrofácil;15 x 20;;FALSO;FALSO;;1
+201;201;Miguel Pons Tous;Calle adornada;;0;VERDADERO;1980;Óleo en chapadur;17,5 x 23,5;;FALSO;FALSO;;1
+202;202;Miguel Pons Tous;Naranja;;0;VERDADERO;1949;Óleo en tela;18 x 19;;FALSO;FALSO;;1
+203;203;Miguel Pons Tous;Limón;;0;VERDADERO;1949;Óleo en tela;18 x 19;;FALSO;FALSO;;1
+204;204;Miguel Pons Tous;Flores en tonos azules;;0;VERDADERO;1976;Óleo en cartón;16,5 x 22;;FALSO;FALSO;;1
+205;205;Miguel Pons Tous;Caverna y formaciones rocosas;;0;VERDADERO;1981;Óleo en cartón entelado;18 x 24;;FALSO;FALSO;;1
+206;206;Miguel Pons Tous;Génova - Palma de Mallorca;;0;VERDADERO;1950;Óleo en terciado;19 x 24;;FALSO;FALSO;;1
+207;207;Miguel Pons Tous;Rosas 7;;0;VERDADERO;1978;Óleo en cartón entelado;18 x 24;;FALSO;FALSO;;1
+208;208;Miguel Pons Tous;Puesto en chapa;;0;VERDADERO;2001;Óleo en bastidor;20 x 40;;FALSO;FALSO;;1
+209;209;Miguel Pons Tous;Tachos;;0;VERDADERO;2001;Óleo en bastidor;24 x 30;;FALSO;FALSO;;1
+210;210;Miguel Pons Tous;Manzana y Mortero;;0;VERDADERO;1983;Óleo en bastidor;18 x 24;;FALSO;FALSO;;1
+211;211;Miguel Pons Tous;Pozo de mi primo Miguel - Montevideo;;0;VERDADERO;1986;Óleo en carton entelado;18 x 24;;FALSO;FALSO;;1
+212;212;Miguel Pons Tous;Suburbios de Córdoba;;0;VERDADERO;1977;Óleo en cartón;18 x 24;;FALSO;FALSO;Apunte de viaje;1
+213;213;Miguel Pons Tous;Ropa tendida;;0;VERDADERO;1980;Óleo en chapadur;18 x 24;;FALSO;FALSO;;1
+214;214;Miguel Pons Tous;Ranchos - Córdoba;;0;VERDADERO;1980;Óleo en chapadur;18 x 24;;FALSO;FALSO;;1
+215;215;Miguel Pons Tous;Río Suquía - Córdoba;;0;VERDADERO;1976;Óleo en cartón;18 x 24;;FALSO;FALSO;;1
+216;216;Miguel Pons Tous;Basurales - Córdoba;;0;VERDADERO;1980;Óleo en chapadur;18 x 24;;FALSO;FALSO;;1
+217;217;Miguel Pons Tous;Cajón del Río Nº2 - Capilla del Monte;;0;VERDADERO;2006;Óleo en cartón entelado;18 x 24;;FALSO;FALSO;;1
+218;218;Miguel Pons Tous;Las Tapadas de Vejer - España;;0;VERDADERO;;Óleo en cartón entelado;18 x 24;;FALSO;FALSO;;1
+219;219;Miguel Pons Tous;Caracolas;;0;VERDADERO;1983;Óleo en cartón entelado;30 x 40;;FALSO;VERDADERO;;1
+220;220;Miguel Pons Tous;Estrella federal;;0;VERDADERO;1967;Óleo en cartón entelado;30 x 40;;FALSO;FALSO;;1
+221;221;Miguel Pons Tous;Nuestra Sra del Rosario;;0;VERDADERO;1978;Óleo en cartón entelado;30 x 40;;FALSO;FALSO;;1
+222;222;Miguel Pons Tous;Pinar de Montevideo;;0;VERDADERO;2003;Óleo en cartón entelado;30 x 40;;FALSO;FALSO;;1
+223;223;Miguel Pons Tous;La Cumbre - Córdoba;;0;VERDADERO;1982;Óleo en chapadur;30 x 50;;FALSO;FALSO;;1
+224;224;Miguel Pons Tous;Rancho de Doña Carmen Torres - Santa Catalina - Córdoba;;0;VERDADERO;1984;Óleo en cartón entelado;30 x 50;;FALSO;FALSO;;1
+225;225;Miguel Pons Tous;Algarrobos de Calera;;0;VERDADERO;2000;Óleo en cartón entelado;30 x 50;;FALSO;VERDADERO;;1
+226;226;Miguel Pons Tous;Algarrobos de Calera - Invierno;;0;VERDADERO;1978;Óleo en cartón entelado;30 x 50;;FALSO;FALSO;;1
+227;227;Miguel Pons Tous;Algarrobos de Calera - Tarde lluviosa;;0;VERDADERO;1977;Óleo en cartón entelado;30 x 50;;FALSO;FALSO;;1
+228;228;Miguel Pons Tous;El Tajamar - Santa Catalina;;0;VERDADERO;1983;Óleo en cartón entelado;30 x 50;;FALSO;FALSO;;1
+229;229;Miguel Pons Tous;Gomeria de barrio;;0;VERDADERO;1984;Óleo en cartón entelado;30 x 50;;FALSO;VERDADERO;;1
+230;230;Miguel Pons Tous;Rancho de chapas;;0;VERDADERO;1982;Óleo en cartón entelado;30 x 50;;FALSO;VERDADERO;;1
+231;231;Miguel Pons Tous;Rancho de La Pelada - Capilla del Monte - Córdoba;;0;VERDADERO;1986;Óleo en cartón entelado;30 x 50;;FALSO;FALSO;;1
+232;232;Miguel Pons Tous;Rancho de Pampa de Oláen - Córdoba;;0;VERDADERO;1984;Óleo en cartón entelado;30 x 50;;FALSO;FALSO;;1
+233;233;Miguel Pons Tous;Camino vecinal - Barrio de Córdoba;;0;VERDADERO;1981;Óleo en cartón entelado;30 x 50;;FALSO;FALSO;;1
+234;234;Miguel Pons Tous;Flores Silvestres - Villa Allende;;0;VERDADERO;1981;Óleo en chapadur;40 x 50;;FALSO;FALSO;;1
+235;235;Miguel Pons Tous;Villa Allende - Córdoba;;0;VERDADERO;1981;Óleo en chapadur;40 x 50;;FALSO;FALSO;;1
+236;236;Miguel Pons Tous;Barca en el Lago;;0;VERDADERO;1981;Óleo en cartón entelado;35 x 45;;FALSO;FALSO;;1
+237;237;Miguel Pons Tous;Sra de Carrizo;;0;VERDADERO;0;Óleo en chapadur;40 x 50;;FALSO;FALSO;Sin firma / Sin terminar;1
+238;238;Miguel Pons Tous;Fondo casa de Marysol;;0;VERDADERO;1977;Óleo en cartón entelado;40 x 50;;FALSO;FALSO;;1
+239;239;Miguel Pons Tous;Rural;;0;VERDADERO;1999;Óleo en cartón entelado;35 x 45;;FALSO;FALSO;;1
+240;240;Miguel Pons Tous;Dumesnil - Córdoba;;0;VERDADERO;1983;Óleo en cartón entelado;35 x 50;;FALSO;FALSO;;1
+241;241;Miguel Pons Tous;Colonia de FACE - Capilla del Monte;;0;VERDADERO;1977;Óleo en cartón entelado;35 x 45;;FALSO;FALSO;;1
+242;242;Miguel Pons Tous;El Cajón - Capilla del Monte;;0;VERDADERO;1981;Óleo en cartón entelado;35 x 45;;FALSO;FALSO;puesto en un primer marco blanco;1
+243;243;Miguel Pons Tous;Cerro Uritorco - Capilla del Monte;;0;VERDADERO;1977;Óleo en cartón entelado;35 x 45;;FALSO;FALSO;;1
+244;244;Miguel Pons Tous;Cardos - Córdoba;;0;VERDADERO;1978;Óleo en cartón entelado;35 x 45;;FALSO;FALSO;;1
+245;245;Miguel Pons Tous;San Esteban - Córdoba;;0;VERDADERO;1977;Óleo en cartón entelado;35 x 45;;FALSO;FALSO;;1
+246;246;Miguel Pons Tous;Playa de Malvin - Montevideo;;0;VERDADERO;1988;Óleo en cartón entelado;30,5 x 61;;FALSO;VERDADERO;;1
+247;247;Miguel Pons Tous;Rancho de Gustavo - Capilla del Monte;Capilla del Monte;0;VERDADERO;1981;Óleo en chapadur;40 x 50;;FALSO;FALSO;;1
+248;248;Miguel Pons Tous;Cajón del Río Nº 3 - Capilla del Monte;Capilla del Monte;0;VERDADERO;1980;Óleo en cartón entelado;40 x 50;;FALSO;FALSO;;1
+249;249;Miguel Pons Tous;Lago San Roque desde Bialet Masse;;0;VERDADERO;1979;Óleo en cartón entelado;40 x 50;;FALSO;FALSO;;1
+250;250;Miguel Pons Tous;La Cumbre Nº 2 - Córdoba;;0;VERDADERO;1981;Óleo en chapadur;40 x 50;;FALSO;FALSO;;1
+251;251;Miguel Pons Tous;Parral de Don José - Capilla del Monte;Capilla del Monte;0;VERDADERO;1977;Óleo en cartón entelado;40 x 50;;FALSO;FALSO;;1
+252;252;Miguel Pons Tous;La Calera Nº 2 - Córdoba;;0;VERDADERO;1981;Óleo en chapadur;40 x 50;;FALSO;FALSO;;1
+253;253;Miguel Pons Tous;Otoño en las sierras;;0;VERDADERO;1987;Óleo en cartón entelado;40 x 50;;FALSO;FALSO;;1
+254;254;Miguel Pons Tous;Primavera en Capilla del Monte;;0;VERDADERO;1981;Óleo en chapadur;40 x 50;;FALSO;FALSO;;1
+255;255;Miguel Pons Tous;Frutas y florero;;0;VERDADERO;1980;Óleo en cartón entelado;40 x 50;;FALSO;FALSO;;1
+256;256;Miguel Pons Tous;Pato y cacerola;;0;VERDADERO;1981;Óleo en chapadur;40 x 50;;FALSO;VERDADERO;Autenticado por Miguel Pons Tous;1
+257;257;Miguel Pons Tous;Árboles en Capilla del Monte;Capilla del Monte;0;VERDADERO;1979;Óleo en chapadur;40 x 50;;FALSO;FALSO;;1
+258;258;Miguel Pons Tous;Bailaora;;0;VERDADERO;1977;Óleo en chapadur;35 x 50;;FALSO;FALSO;;1
+259;259;Miguel Pons Tous;Rancho de Doña Carmen Torres (parte de atrás) - Santa Catalina - Córdoba;;0;VERDADERO;1981;Óleo en cartón entelado;30 x 50;;FALSO;FALSO;;1
+260;260;Miguel Pons Tous;La Cañada Nº 2;;0;VERDADERO;2004;Óleo en cartón entelado;35 x 45;;FALSO;FALSO;;1
+261;261;Miguel Pons Tous;El Pajarillo - Capilla del Monte;Capilla del Monte;0;VERDADERO;1981;Óleo en chapadur;40 x 50;;FALSO;FALSO;;1
+262;262;Miguel Pons Tous;Las Gemelas Nº 3 - Capilla del Monte;Capilla del Monte;0;VERDADERO;1980;Óleo en cartón entelado;40 x 50;;FALSO;FALSO;;1
+263;263;Miguel Pons Tous;Capilla del Monte Nº 2;;0;VERDADERO;1981;Óleo en chapadur;40 x 50;;FALSO;FALSO;;1
+264;264;Miguel Pons Tous;Álamos de Calera;;0;VERDADERO;1977;Óleo en cartón entelado;35 x 45;;FALSO;FALSO;;1
+265;265;Miguel Pons Tous;Colonia de FACE Nº 2 - Capilla del Monte;Capilla del Monte;0;VERDADERO;1977;Óleo en cartón entelado;35 x 45;;FALSO;FALSO;;1
+266;266;Miguel Pons Tous;Sierras;;0;VERDADERO;2001;Óleo en cartón entelado;35 x 45;;FALSO;FALSO;;1
+267;267;Miguel Pons Tous;Campo;;0;VERDADERO;1980;Óleo en chapadur;35 x 45;;FALSO;FALSO;;1
+268;268;Miguel Pons Tous;Mallorca Nº 2;;0;VERDADERO;1984;Óleo en cartón entelado;35 x 50;;FALSO;FALSO;;1
+269;269;Miguel Pons Tous;Bahia de Palma de Mallorca;;0;VERDADERO;;Óleo en cartón entelado;30 x 50;;FALSO;FALSO;;1
+270;270;Miguel Pons Tous;Mirador de las Ánimas - Deya - Mallorca;;0;VERDADERO;1979;Óleo en cartón entelado;30 x 50;;FALSO;FALSO;;1
+271;271;Miguel Pons Tous;Rancho de Doña Carmen Torres Nº 3 - Santa Catalina - Córdoba;;0;VERDADERO;1981;Óleo en cartón entelado;30 x 50;;FALSO;FALSO;;1
+272;272;Miguel Pons Tous;Río de Calera - Córdoba;;0;VERDADERO;1974;öleo en cartón entelado;30x40;;FALSO;FALSO;;1
+273;273;Miguel Pons Tous;Cabána - Córdoba;;0;VERDADERO;1972;öleo en cartón entelado;30x40;;FALSO;FALSO;;1
+274;274;Miguel Pons Tous;Bailaora 2;;0;VERDADERO;1980;Óleo en cartón entelado;30x40;;FALSO;FALSO;;1
+275;275;Miguel Pons Tous;San Francisco del Chañar;;0;VERDADERO;1980;Óleo en cartón entelado;30x40;;FALSO;FALSO;;1
+276;276;Miguel Pons Tous;Casa de Marysol 2 - Córdoba;;0;VERDADERO;1978;Óleo en cartón entelado;30x40;;FALSO;FALSO;;1
+277;277;Miguel Pons Tous;Damas Mallorquinas;;0;VERDADERO;1979;Óleo en cartón entelado;30x40;;FALSO;FALSO;;1
+278;278;Miguel Pons Tous;Navegar;;0;VERDADERO;1980;Óleo en cartón entelado;30x40;;FALSO;FALSO;;1
+279;279;Miguel Pons Tous;Don José Aloisi - Capilla del Monte;;0;VERDADERO;1977;Óleo en cartón entelado;30x40;;FALSO;FALSO;;1
+280;280;Miguel Pons Tous;Casa de Don Ricardo - Capilla del Monte;;0;VERDADERO;1984;Óleo en chapadur;30x40;;FALSO;FALSO;;1
+281;281;Miguel Pons Tous;Calera por la tarde - Córdoba;;0;VERDADERO;1978;Óleo en cartón entelado;30x40;;FALSO;FALSO;;1
+282;282;Miguel Pons Tous;Córdoba desde calle Colón;;0;VERDADERO;1976;Óleo en cartón;27,5x37,5;;FALSO;FALSO;;1
+283;283;Miguel Pons Tous;Villa Belgrano - Córdoba;;0;VERDADERO;1976;Óleo en cartón;27,5x37;;FALSO;FALSO;;1
+284;284;Miguel Pons Tous;Entrada al Chateau Carreras - Córdoba;;0;VERDADERO;1976;Óleo en cartón;27,5x37,5;;FALSO;FALSO;;1
+285;285;Miguel Pons Tous;Río Suquía - Villa Belgrano - Córdoba;;0;VERDADERO;1976;Óleo en cartón;27,5x37;;FALSO;FALSO;;1
+286;286;Miguel Pons Tous;Los Pozos Verdes - Cerro - Córdoba;;0;VERDADERO;1976;Óleo en cartón;27,5x37;;FALSO;FALSO;;1
+287;287;Miguel Pons Tous;La Burrera;;0;VERDADERO;1977;Óleo en cartón;27,5x37;;FALSO;FALSO;;1
+288;288;Miguel Pons Tous;Hipólito - Capilla del Monte;;0;VERDADERO;1977;Óleo en cartón;27,5x37;;FALSO;FALSO;;1
+289;289;Miguel Pons Tous;Marysol en el cajón del Río - Capilla del Monte;;0;VERDADERO;1978;Óleo en cartón;27,5x37;;FALSO;FALSO;;1
+290;290;Miguel Pons Tous;Joven india - Capilla del Monte;;0;VERDADERO;1977;Óleo en cartón;27,5x37;;FALSO;FALSO;;1
+291;291;Miguel Pons Tous;Canasta, Jarra y Flores;;0;VERDADERO;1976;Óleo en cartón;35x44;;FALSO;FALSO;;1
+292;292;Miguel Pons Tous;Doña Damiana;;0;VERDADERO;1980;Óleo en cartón;35x44;;FALSO;FALSO;;1
+293;293;Miguel Pons Tous;Campito - Córdoba;;0;VERDADERO;1980;Óleo en cartón entelado;27x35;;FALSO;FALSO;;1
+294;294;Miguel Pons Tous;Río de Capilla del Monte;Capilla del Monte;0;VERDADERO;1977;Óleo en cartón;35x45;;FALSO;FALSO;;1
+295;295;Miguel Pons Tous;Materiales de trabajo;;0;VERDADERO;1976;Óleo en cartón;28x35;;FALSO;FALSO;;1
+296;296;Miguel Pons Tous;Flores;;0;VERDADERO;1977;Óleo en cartón;28x38;;FALSO;FALSO;;1
+297;297;Miguel Pons Tous;Puerto de Palma de Mallorca;;0;VERDADERO;1976;Óleo en cartón;21x28;;FALSO;FALSO;;1
+298;298;Miguel Pons Tous;"Rancho de ""La Pelada"" - Capilla del Monte";Capilla del Monte;0;VERDADERO;1976;Óleo en cartón;30x42;;FALSO;FALSO;;1
+299;299;Miguel Pons Tous;"Rancho de ""La Pelada"" 2 - Capilla del Monte";Capilla del Monte;0;VERDADERO;1976;Óleo en cartón;27,5x32;;FALSO;FALSO;;1
+300;300;Miguel Pons Tous;Rancho - Capilla del Monte;Capilla del Monte;0;VERDADERO;1976;Óleo en cartón;31,5x41;;FALSO;FALSO;;1
+301;301;Miguel Pons Tous;"Rancho de ""La Pelada"" 3 - Capilla del Monte";Capilla del Monte;0;VERDADERO;1976;Óleo en cartón;34x41;;FALSO;FALSO;Algo deteriorado en el lateral superior;1
+302;302;Miguel Pons Tous;Flores;;0;VERDADERO;1979;Óleo en cartón;34x45;;FALSO;FALSO;;1
+303;303;Miguel Pons Tous;Rostro de dama;;0;VERDADERO;1977;Óleo en cartón;35x45;;FALSO;FALSO;La obra 304 está realizada en el reverso;1
+304;304;Miguel Pons Tous;Dama Mallorquina;;0;VERDADERO;1977;Óleo en cartón;35x45;;FALSO;FALSO;La obra 303 está realizada en el reverso;1
+305;305;Miguel Pons Tous;Rancho fondo Cerro Uritorco - Capilla del Monte;Capilla del Monte;0;VERDADERO;1976;Óleo en cartón;31x40;;FALSO;FALSO;;1
+306;306;Miguel Pons Tous;Algarroba de Águila Blanca fondo Uritorco - Capilla del Monte;Capilla del Monte;0;VERDADERO;1976;Óleo en cartón;28x38;;FALSO;FALSO;;1
+307;307;Miguel Pons Tous;Camino a la Toma - Capilla del Monte;Capilla del Monte;0;VERDADERO;1976;Óleo en cartón;28x38;;FALSO;FALSO;;1
+308;308;Miguel Pons Tous;Camino a la Toma 2 - Capilla del Monte;Capilla del Monte;0;VERDADERO;1976;Óleo en cartón;28x38;;FALSO;FALSO;Algo cubierta con pintura la firma;1
+309;309;Miguel Pons Tous;Río Dolores - Capilla del Monte;Capilla del Monte;0;VERDADERO;1976;Óleo en cartón;28x37;;FALSO;FALSO;;1
+310;310;Miguel Pons Tous;Río Calabalumba - Capilla del Monte;Capilla del Monte;0;VERDADERO;1976;Óleo en cartón;28x37;;FALSO;FALSO;;1
+311;311;Miguel Pons Tous;Cajón del Río - Capilla del Monte;Capilla del Monte;0;VERDADERO;1976;Óleo en cartón;28x38;;FALSO;FALSO;;1
+312;312;Miguel Pons Tous;Palmeritas - Cerca de la Mónica - Capilla del Monte;;0;VERDADERO;1976;Óleo en cartón;27 x 37;;FALSO;FALSO;;1
+313;313;Miguel Pons Tous;El Zapato - Capilla del Monte;Capilla del Monte;0;VERDADERO;1976;Óleo en Cartón;27 x 37;;FALSO;FALSO;;1
+314;314;Miguel Pons Tous;El Zapato 2 - Capilla del Monte;Capilla del Monte;0;VERDADERO;1976;Óleo en Cartón;27 x 37;;FALSO;FALSO;;1
+315;315;Miguel Pons Tous;Cajon del Rio - Capilla del Monte;Capilla del Monte;0;VERDADERO;1976;Óleo en Cartón;27 x 36;;FALSO;FALSO;;1
+316;316;Miguel Pons Tous;Cajón y Sauces - Capilla del Monte;Capilla del Monte;0;VERDADERO;1976;Óleo en cartón;27 x 37;;FALSO;FALSO;;1
+317;317;Miguel Pons Tous;El Cajón del Rio - Capilla del Monte;Capilla del Monte;0;VERDADERO;1976;Óleo en Cartón;25 x 33;;FALSO;FALSO;;1
+318;318;Miguel Pons Tous;Camino a la Toma - Capilla del Monte;Capilla del Monte;0;VERDADERO;1976;Óleo en Cartón;27 x 37;;FALSO;FALSO;;1
+319;319;Miguel Pons Tous;Casa del Sergio - Capilla del Monte;Capilla del Monte;0;VERDADERO;1976;Óleo en cartón;27 x 37;;FALSO;FALSO;;1
+320;320;Miguel Pons Tous;Cajón - Capilla del Monte;Capilla del Monte;0;VERDADERO;1976;Óleo en cartón;27 x 37;;FALSO;FALSO;;1
+321;321;Miguel Pons Tous;Algarrobo cerca de la Monica - Capilla del Monte;Capilla del Monte;0;VERDADERO;1976;Óleo en cartón;25,5 x 33,5;;FALSO;FALSO;;1
+322;322;Miguel Pons Tous;Pasando el Zapato - Capilla del Monte;Capilla del Monte;0;VERDADERO;1976;Óleo en Cartón;25,5 x 33,5;;FALSO;FALSO;;1
+323;323;Miguel Pons Tous;Limones;;0;VERDADERO;1997;Óleo en Cartón;27 x 39;;FALSO;FALSO;;1
+324;324;Miguel Pons Tous;Río Dolores - Capilla del Monte;Capilla del Monte;0;VERDADERO;1976;Óleo en carón;25 x 33;;FALSO;FALSO;;1
+325;325;Miguel Pons Tous;Balneario Aguila Blanca - Capilla del Monte;Capilla del Monte;0;VERDADERO;1976;Óleo en carón;25 x 33;;FALSO;FALSO;;1
+326;326;Miguel Pons Tous;Na Foradada - Palma de Mallorca;;0;VERDADERO;1948;Óleo en Cartón;24 x 33,5;;FALSO;FALSO;Rajado en la parte de abajo;1
+327;327;Miguel Pons Tous;Uritorco - Capilla del Monte;Capilla del Monte;0;VERDADERO;1976;Óleo en Cartón;27 x 36;;FALSO;FALSO;;1
+328;328;Miguel Pons Tous;Costa;;;VERDADERO;0;Óleo en Chapadur;58 x 89;;FALSO;FALSO;Sin Terminar - Sin año - Sin Firma;1
+329;329;Miguel Pons Tous;Mantón y florero;;0;VERDADERO;1977;Óleo en Bastidor;58 x 89;;FALSO;FALSO;;1
+330;330;Miguel Pons Tous;Casa de campo;;0;VERDADERO;0;Óleo en bastidor;50 x 60;;FALSO;FALSO;sin firma - sin año;1
+331;331;Miguel Pons Tous;Composición 1;;0;VERDADERO;1982;Óleo en Chapadur;50 x 70;;VERDADERO;VERDADERO;;1
+332;332;Miguel Pons Tous;Palquía - La Rioja;;0;VERDADERO;2002;Óleo en Chapadur;50 70;;VERDADERO;VERDADERO;;1
+333;333;Miguel Pons Tous;Ventanal;;0;VERDADERO;1981;Óleo en Chapadur;50 x 60;;VERDADERO;FALSO;;1
+334;334;Miguel Pons Tous;Algarrobo Puesto del Carmen;;0;VERDADERO;1995;Acuarela;26 x 43;;VERDADERO;VERDADERO;;1
+335;335;Miguel Pons Tous;Catalogos;;0;VERDADERO;1987;Óleo en cartón entelado;30,5 x 40,5;;VERDADERO;VERDADERO;;1
+336;336;Miguel Pons Tous;Caminito;;0;VERDADERO;2001;Acrílico en cartón entelado;35 x 50;en el armario;VERDADERO;VERDADERO;;1
+337;337;Miguel Pons Tous;Mediterraneo;;0;VERDADERO;1999;Óleo en bastidor;30 x 40;;VERDADERO;VERDADERO;;1
+338;338;Miguel Pons Tous;Crisantemos;;0;VERDADERO;2000;Óleo en chapadur;20 x 30;;VERDADERO;FALSO;;1
+339;339;Miguel Pons Tous;Cesta y membrillos;;0;VERDADERO;2005;Óleo en bastidor;35 x 45;en el armario;VERDADERO;VERDADERO;;1
+340;340;Miguel Pons Tous;Zapallos y cobre;;0;VERDADERO;2001;Óleo en chapadur;34 x 43,5;en el armario;VERDADERO;FALSO;;1
+341;341;Miguel Pons Tous;Panes y mortero;;0;VERDADERO;1982;Óleo en bastidor;30 x 40;;VERDADERO;VERDADERO;;1
+342;342;Miguel Pons Tous;Desnudo;;0;VERDADERO;2001;Óleo en bastidor;30 x 40;;VERDADERO;VERDADERO;;1
+343;343;Miguel Pons Tous;Mujer Mallorquina;;0;VERDADERO;0;Óleo en chapadur;50 x 70;en el armario;VERDADERO;FALSO;sin año;1
+344;344;Miguel Pons Tous;Campo;;0;VERDADERO;2009;Óleo en bastidor;30 x 50;en el armario;FALSO;FALSO;;1
+345;345;Miguel Pons Tous;Membrillo;;0;VERDADERO;1996;Lapiz y acualela;25 x 35;;FALSO;FALSO;;1
+346;346;Miguel Pons Tous;Semillas de Jacaranda;;0;VERDADERO;1996;Lapiz y acuarela;25 x 35;;FALSO;FALSO;;1
+347;347;Miguel Pons Tous;Hojas de Otoño;;0;VERDADERO;1996;Lapiz y acuarela;25 x 35;;FALSO;FALSO;;1
+348;348;Miguel Pons Tous;Tulipanes;;0;FALSO;1995;Acuarela;20 x 30;;FALSO;FALSO;;1
+349;349;Miguel Pons Tous;Rosas en Jarra;;0;VERDADERO;1995;Acuarela;20 x 30;;FALSO;FALSO;;1
+350;350;Miguel Pons Tous;Rancho;;0;VERDADERO;1995;Acuarela;20 x 30;;FALSO;FALSO;;1
+351;351;Miguel Pons Tous;Horno de Barro;;0;VERDADERO;1995;Acuarela;20 x 30;;FALSO;FALSO;;1
+352;352;Miguel Pons Tous;Rancho en ruinas;;0;VERDADERO;1995;Acuarela;20 x 30;;FALSO;FALSO;;1
+353;353;Miguel Pons Tous;Otro rancho;;0;VERDADERO;1995;Acuarela;20 x 30;;FALSO;FALSO;;1
+354;354;Miguel Pons Tous;Practica de frutas;;0;VERDADERO;0;Tempera;20 x 30;;FALSO;FALSO;;1
+355;355;Miguel Pons Tous;Rancho;;0;VERDADERO;1995;Tempera;20 x 30;;FALSO;FALSO;;1
+356;356;Miguel Pons Tous;Practica de Flores;;0;VERDADERO;0;Tempera;20 x 30;;FALSO;FALSO;;1
+357;357;Miguel Pons Tous;Zapallo y hoja;;0;VERDADERO;0;Posible prueba de temple (yema de huevo);20 x 30;;FALSO;FALSO;;1
+358;358;Miguel Pons Tous;Flor;;0;VERDADERO;0;Tempera;20 x 30;;FALSO;FALSO;;1
+359;359;Miguel Pons Tous;Cardos en el Campo;;0;VERDADERO;1996;Tempera;21 x 32;;FALSO;FALSO;;1
+360;360;Miguel Pons Tous;Ranchos de Capilla del Monte;;0;VERDADERO;1995;Tempera;13 x 24;;FALSO;FALSO;;1
+361;361;Miguel Pons Tous;Rancho de Pedro;;0;VERDADERO;1987;Tempera;18 x 27;;FALSO;FALSO;;1
+362;362;Miguel Pons Tous;Lago;;0;VERDADERO;1996;Tempera;21 x 32;;FALSO;FALSO;;1
+363;363;Miguel Pons Tous;Pescado y mortero;;0;VERDADERO;1996;Tempera;24 x 33,5;;FALSO;FALSO;;1
+364;364;Miguel Pons Tous;Hortensias;;0;VERDADERO;1999;Tempera;;;VERDADERO;VERDADERO;;1
+365;365;Miguel Pons Tous;;;0;FALSO;0;;;;FALSO;FALSO;;1
+366;366;Miguel Pons Tous;;;0;FALSO;0;;;;FALSO;FALSO;;1
+367;367;Miguel Pons Tous;Autorretrato;;0;FALSO;0;;;;FALSO;FALSO;;1
+368;368;Miguel Pons Tous;Esperando a Federico;;0;VERDADERO;1999;Óleo y acrílico en bastidor;90 x 70;;VERDADERO;VERDADERO;;1
+369;369;Miguel Pons Tous;Naturaleza Muerta, bien muerta;;;VERDADERO;1982;Óleo en chapadur;90 x 90;;VERDADERO;FALSO;Valuado en 50000000 de pesos cuando se expuso en el museo de arte Emilio Carafa, primer salón de pintura, fundacion pro arte córdoba.;1
+370;370;Miguel Pons Tous;Naturaleza muerta, no tan muerta;;0;VERDADERO;1982;Óleo en chapadur;90 x 90;;VERDADERO;FALSO;Igual que el anterior - Marco mala calidad;1
+371;371;Miguel Pons Tous;Rancho del norte de Córdoba;;0;VERDADERO;1984;Óleo en bastidor;40 x 80;en el armario;VERDADERO;VERDADERO;;1
+372;372;Miguel Pons Tous;Caquis, peras y uvas;;0;VERDADERO;2010;Óleo en chapadur;40 x 50;en el armario;FALSO;FALSO;;1
+373;373;Miguel Pons Tous;Pomelos y Jarra de peltre;;0;VERDADERO;1997;Óleo en cartón entelado;35 x 45;en el armario;VERDADERO;VERDADERO;;1
+374;374;Miguel Pons Tous;Jarron con flores naif;;0;VERDADERO;2003;Óleo en carton entelado;24 x 30;;VERDADERO;FALSO;;1
+375;375;Miguel Pons Tous;Montaña rocosa;;0;VERDADERO;1989;Óleo en cartón entelado;24 x 30;;VERDADERO;FALSO;;1
+376;376;Miguel Pons Tous;Papayas y zapallito;;0;VERDADERO;1988;Óleo en bastidor;30 x 30;;VERDADERO;VERDADERO;;1
+377;377;Miguel Pons Tous;Tronco caído;;0;VERDADERO;1999;Óleo en bastidor;30 x 50;;VERDADERO;VERDADERO;;1
+378;378;Miguel Pons Tous;Ventana al campanario;;0;VERDADERO;1989;Óleo en carón entelado;27 x 35;;VERDADERO;FALSO;;1
+379;379;Miguel Pons Tous;Perdices y mortero;;0;VERDADERO;1981;Óleo en chapadur;35 x 45;;VERDADERO;VERDADERO;;1
+380;380;Miguel Pons Tous;Rancho de Gustavo;;0;VERDADERO;1986;Óleo en cartón entelado;18 x 24;;FALSO;FALSO;;1
+381;381;Miguel Pons Tous;Tronco caido en otoño;;0;VERDADERO;0;Óleo en cartón entelado;24 x 30;;FALSO;FALSO;Sin firma - sin año;1
+382;382;Miguel Pons Tous;Santa Catalina - Córdoba;;0;VERDADERO;1981;Óleo en cartón entelado;27 x 35;;FALSO;FALSO;;1
+383;383;Miguel Pons Tous;Dama Mallorquina en el campo;;0;VERDADERO;1998;Óleo en bastidor;35 x 45;;VERDADERO;FALSO;;1
+384;384;Miguel Pons Tous;Transparecia;;0;VERDADERO;1990;Óleo en cartón entelado;35 x 50;en el armario;VERDADERO;FALSO;;1
+385;385;Miguel Pons Tous;Reina Margarita en jarrita de cobre;;0;VERDADERO;1974;Óleo en cartón entelado;24 x 30;;VERDADERO;FALSO;;1
+386;386;Miguel Pons Tous;Flores en jarra;;0;VERDADERO;2010;Óleo en cartón entelado;24 x 30;;FALSO;FALSO;;1
+387;387;Miguel Pons Tous;Reina Margarita en florero azul;;0;VERDADERO;2001;Óleo en bastidor;25 x 45;;VERDADERO;FALSO;;1
+388;388;Miguel Pons Tous;Membrillos y tela;;0;VERDADERO;1994;Óleo en bastidor;40 x 50;;VERDADERO;FALSO;;1
+389;389;Miguel Pons Tous;Maderas y Metal;;0;VERDADERO;1985;Óleo en bastidor;80 x 120;;VERDADERO;VERDADERO;;1
+390;390;Miguel Pons Tous;Rancho de Tuclame;;0;VERDADERO;1986;Óleo en chapadur;30 x 70;;VERDADERO;FALSO;;1
+391;391;Miguel Pons Tous;Bahia de Palma de Mallorca desde Ciudad Jardín;;0;VERDADERO;1948;Óleo en cartón entelado;27 x 35;;VERDADERO;FALSO;;1
+392;392;Miguel Pons Tous;Retrato de Don Tomas;;0;VERDADERO;1954;Óleo en bastidor;60 x 70;;VERDADERO;FALSO;;1
+393;393;Miguel Pons Tous;Recuerdos;;0;VERDADERO;2000;Óleo en bastidor;30 x 24;;VERDADERO;VERDADERO;;1
+394;394;Miguel Pons Tous;Corona de Cristo;;0;VERDADERO;1995;Óleo en bastidor;30 x 40;;VERDADERO;FALSO;;1
+395;395;Miguel Pons Tous;Flores, metal y tela;;0;VERDADERO;2008;Óleo en bastidor;80 x 100;;VERDADERO;FALSO;;1
+396;396;Miguel Pons Tous;Corral - Dumesnil;;0;VERDADERO;1990;Óleo en cartón entelado;20 x 40;;VERDADERO;VERDADERO;;1
+397;397;Miguel Pons Tous;Camino;;0;VERDADERO;1990;Óleo en cartón entelado;20 x 40;;VERDADERO;VERDADERO;;1
+398;398;Miguel Pons Tous;Playa de Malvin - Montevideo;;0;VERDADERO;1990;Óleo en bastidor;20 x 40;;VERDADERO;FALSO;;1
+399;399;Miguel Pons Tous;Rocosas en Malvin - Montevideo;;0;VERDADERO;1989;Óleo en bastidor;20 x 40;;VERDADERO;FALSO;;1
+400;400;Miguel Pons Tous;Retrato de revista;;0;FALSO;1981;Óleo en carton entelado;18 x 24;;VERDADERO;FALSO;;1
+401;401;Miguel Pons Tous;Rancho en el campo;;0;VERDADERO;1981;Óleo en chapadur;30 x 50;;VERDADERO;FALSO;;1
+402;402;Miguel Pons Tous;El tiempo pasa y Mallorca no llega;;0;VERDADERO;1990;Óleo en Bastidor;50 x 70;;VERDADERO;FALSO;;1
+403;403;Miguel Pons Tous;Mujeres - Copia de Romero de Torres;;0;VERDADERO;1959;Óleo en cartón;7,5 x 11;;VERDADERO;FALSO;;1
+404;404;Miguel Pons Tous;Ajo;;0;VERDADERO;1983;Óleo en chapadur;13 x 18;;VERDADERO;FALSO;;1
+;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;
